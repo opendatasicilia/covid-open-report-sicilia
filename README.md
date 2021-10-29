@@ -8,5 +8,22 @@ Dal 6 ottobre 2021 il Dipartimento Attività Sanitarie e Osservatorio Epidemiolo
 - [Report Completo 27 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2027%20Ottobre%202021.pdf)
 
 ### Struttura repository
-
+`
+covid-open-report-sicilia
+├── 📂dati
+│   ├── 📂incidenza
+│   │   ├── 📄incidenzaYYYYMMDD.csv
+│   │   ├── 📄incidenza_latest.csv
+│   │   └── 📄incidenza.csv
+│   └── 📂vaccini
+│       ├── 📄vacciniYYYYMMDD.csv
+│       ├── 📄vaccini_latest.csv
+│       └── 📄vaccini.csv
+├── 📂download
+│   └── 📄Report Completo DD MMMM YYYY.pdf
+├── 📂script
+│   ├── 📄script.sh
+│   └── 📄script.py
+└── 📂api
+`
 ### Schema dati
