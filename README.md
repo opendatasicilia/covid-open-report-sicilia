@@ -8,6 +8,7 @@ Dal 6 ottobre 2021 il Dipartimento Attività Sanitarie e Osservatorio Epidemiolo
 - [Report Completo 27 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2027%20Ottobre%202021.pdf)
 
 ### Struttura repository
+proposta:
 ```
 covid-open-report-sicilia
 ├── 📂dati
