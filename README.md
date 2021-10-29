@@ -14,12 +14,12 @@ proposta:
 covid-open-report-sicilia
 ├── 📂dati
 │   ├── 📂incidenza
-│   │   ├── 📄incidenzaYYYYMMDD.csv
-│   │   ├── 📄incidenza_latest.csv
+│   │   ├── 📄incidenza-YYYYMMDD.csv
+│   │   ├── 📄incidenza-latest.csv
 │   │   └── 📄incidenza.csv
 │   └── 📂vaccini
-│       ├── 📄vacciniYYYYMMDD.csv
-│       ├── 📄vaccini_latest.csv
+│       ├── 📄vaccini-YYYYMMDD.csv
+│       ├── 📄vaccini-latest.csv
 │       └── 📄vaccini.csv
 ├── 📂download
 │   └── 📄Report Completo DD MMMM YYYY.pdf
