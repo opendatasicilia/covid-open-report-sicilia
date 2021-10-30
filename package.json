@@ -2,9 +2,9 @@
   "name": "covid-reports-api",
   "version": "1.0.0",
   "description": "API per dati epidemiologici e vaccinali Regione Sicilia",
-  "main": "api.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "cd api && node index.js"
   },
   "author": "@opendatasicilia",
   "license": "ISC",
