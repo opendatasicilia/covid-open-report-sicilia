@@ -8,7 +8,7 @@
         },
         "servers": [
             {
-                "url": "https://covid-reports-api.herokuapp.com/"
+                "url": "https://covid-open-report-sicilia.herokuapp.com/"
             }
         ]
     },
