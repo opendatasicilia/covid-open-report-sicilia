@@ -1,0 +1,16 @@
+{
+    "definition": {
+        "openapi": "3.0.0",
+        "info": {
+            "title": "COVID Reports API",
+            "version": "1.0.0",
+            "description": "API per dati epidemiologici e vaccinali Regione Sicilia"
+        },
+        "servers": [
+            {
+                "url": "https://covid-reports-api.herokuapp.com/"
+            }
+        ]
+    },
+    "apis": ["./routes/*.js"]
+}
