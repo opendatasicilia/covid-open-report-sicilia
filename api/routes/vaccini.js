@@ -2,8 +2,6 @@ const express = require("express");
 const router = express.Router();
 const func = require('../lib/functions')
 
-const vaccinati = `${__dirname}/../../dati/vaccini/vaccini-latest.csv`;
-
 /**
  * @swagger
  * components:
@@ -81,24 +79,29 @@ const schema = {
     '%immunizzati': "float",
 }
 
+const path = `${__dirname}/../../dati/vaccini/vaccini`;
+
 router.get('/', async (req, res) => {
-    const query = req.query.q
-    const data = await func.parse(vaccinati, schema)
-    
-    if(query){
-        try {
-            res.send(func.filter(data, query))
-        }
-        catch(e){
-            res.sendStatus(e)
-        }
-    }else{
-        try {
-            res.send(data)
-        }
-        catch(e){
-            res.sendStatus(e)
-        }
+    const dati = await func.parse(path+'-latest.csv', schema)
+    const response = func.filter(dati, req.query);
+
+    try{
+        res.send(response)
+    }
+    catch(e){
+        res.send(e)
+    }
+})
+
+router.get('/latest', async (req, res) => {
+    const dati = await func.parse(path+'-latest.csv', schema)
+    const response = func.filter(dati, req.query);
+
+    try{
+        res.send(response)
+    }
+    catch(e){
+        res.send(e)
     }
 })
 

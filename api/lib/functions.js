@@ -9,10 +9,16 @@ module.exports = {
         }).fromFile(f)
         return file
     },
-    filter: (array, query) => {
-        return array.filter(x =>  JSON.stringify(x).toLowerCase().indexOf(query.toLowerCase()) !== -1)
-    },
-    comune: (array, query) => {
-        return array.filter(x => x.comune.toLowerCase().includes(query.toLowerCase()))
+    filter: (array, queries) => {
+        const {from, to, prov, q} = queries
+        const compDate = (date) => {
+            return new Date(date.replace(/-/g,'/'))
+        }
+        return array.filter(x => {
+            return (q ? (JSON.stringify(x).toLowerCase().indexOf(q.toLowerCase()) !== -1) : true) &&
+                   (prov ? (x.cod_prov == prov) : true) &&
+                   (from ? (compDate(x.data) >= compDate(from)) : true) &&
+                   (to ? (compDate(x.data) <= compDate(to)) : true);
+        });
     }
 }

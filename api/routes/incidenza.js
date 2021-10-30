@@ -2,8 +2,6 @@ const express = require("express");
 const router = express.Router();
 const func = require('../lib/functions');
 
-const incidenza = `${__dirname}/../../dati/incidenza/incidenza-latest.csv`;
-
 /**
  * @swagger
  * components:
@@ -81,24 +79,29 @@ const incidenza = `${__dirname}/../../dati/incidenza/incidenza-latest.csv`;
      'casi': "int"
 }
 
-router.get("/", async (req, res) => {
-    const query = req.query
-    const data = await func.parse(incidenza, schema)
+const path = `${__dirname}/../../dati/incidenza/incidenza`;
 
-    if(query.comune){
-        try {
-            res.send(func.comune(data, query.comune))
-        }
-        catch(e){
-            console.log(e)
-        }
-    }else{
-        try {
-            res.send(data)
-        }
-        catch(e){
-            res.sendStatus(e)
-        }
+router.get("/", async (req, res) => {
+    const dati = await func.parse(path+'.csv', schema)
+    const response = func.filter(dati, req.query);
+
+    try{
+        res.send(response)
+    }
+    catch(e){
+        res.send(e)
+    }
+})
+
+router.get('/latest', async (req, res) => {
+    const dati = await func.parse(path+'-latest.csv', schema)
+    const response = func.filter(dati, req.query);
+
+    try{
+        res.send(response)
+    }
+    catch(e){
+        res.send(e)
     }
 })
 
