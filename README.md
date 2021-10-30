@@ -52,5 +52,5 @@ pro_com_t | Codice ISTAT del Comune | Numero | 084002
 provincia | Denominazione della Provincia | Testo | Agrigento
 comune | Denominazione del Comune | Testo | Alessandria della Rocca
 target | Popolazione ISTAT 2021 over 12 | Numero | 2426
-%vaccinati1dose | Percentuale di persone vaccinate con almeno una dose (calcolata rispetto al target) | Numero | 84.65
-%Immunizzati | Percentuale di: persone vaccinate con 2 o più dosi, persone vaccinate in monodose per pregressa infezione Covid, persone vaccinate con Janssen (calcolata rispetto al target) | Numero | 82.72
+%vaccinati | Percentuale di persone vaccinate con almeno una dose (calcolata rispetto al target) | Numero | 84.65
+%immunizzati | Percentuale di: persone vaccinate con 2 o più dosi, persone vaccinate in monodose per pregressa infezione Covid, persone vaccinate con Janssen (calcolata rispetto al target) | Numero | 82.72
