@@ -30,3 +30,27 @@ covid-open-report-sicilia
 ```
 
 ### Schema dati
+#### Struttura file `incidenza-YYYYMMDD.csv`, `incidenza-latest.csv`, `incidenza.csv`
+
+Campo | Descrizione | Formato | Esempio
+-- | -- | -- | --
+data | Data pubblicazione report DASOE | YYYY-MM-DD | 2021-10-27
+cod_prov | Codice ISTAT della Provincia | Numero | 84
+pro_com_t | Codice ISTAT del Comune | Numero | 084002
+provincia | Denominazione della Provincia | Testo | Agrigento
+comune | Denominazione del Comune | Testo | Alessandria della Rocca
+incidenza | Incidenza cumulativa settimanale (ogni 100.000 abitanti) | Numero | 855
+casi | Nuovi casi settimanali | Numero | 6
+
+#### Struttura file `vaccini-YYYYMMDD.csv`, `vaccini-latest.csv`, `vaccini.csv`
+
+Campo | Descrizione | Formato | Esempio
+-- | -- | -- | --
+data | Data pubblicazione report DASOE | YYYY-MM-DD | 2021-10-27
+cod_prov | Codice ISTAT della Provincia | Numero | 84
+pro_com_t | Codice ISTAT del Comune | Numero | 084002
+provincia | Denominazione della Provincia | Testo | Agrigento
+comune | Denominazione del Comune | Testo | Alessandria della Rocca
+target | Popolazione ISTAT 2021 over 12 | Numero | 2426
+%vaccinati1dose | Percentuale di persone vaccinate con almeno una dose (calcolata rispetto al target) | Numero | 84.65
+%Immunizzati | Percentuale di: persone vaccinate con 2 o più dosi, persone vaccinate in monodose per pregressa infezione Covid, persone vaccinate con Janssen (calcolata rispetto al target) | Numero | 82.72
