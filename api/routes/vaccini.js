@@ -50,13 +50,56 @@ const func = require('../lib/functions')
  * @swagger
  * /vaccini:
  *   get:
- *     summary: Restituisce le percentuali di vaccinati ed immunizzati per i comuni siciliani
+ *     summary: Percentuali di vaccinati ed immunizzati per i comuni siciliani
  *     parameters:
  *       - in: query
  *         name: q
  *         schema:
  *           type: string
- *         description: Restituisce i campi che contengono parti della stringa `q`
+ *         description: Restituisce i campi che contengono parti della stringa <small>(es. q=Palermo)</small>
+ *       - in: query
+ *         name: prov
+ *         schema:
+ *           type: int
+ *         description: Restituisce i campi appartenenti ad un particolare codice provinciale <small>(es. prov=82)</small>
+ *       - in: query
+ *         name: from
+ *         schema:
+ *           type: string
+ *         description: Restituisce i campi a partire da una determinata data, in formato YYYY-MM-DD <small>(es. from=2021-10-10)</small>
+ *       - in: query
+ *         name: to
+ *         schema:
+ *           type: string
+ *         description: Restituisce i campi fino ad una determinata data, in formato YYYY-MM-DD <small>(es. to=2021-10-27)</small>
+ *     tags: [Vaccini]
+ *     responses:
+ *       200:
+ *         description: Statistiche per comune
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/Vaccini'
+ */
+
+/**
+ * @swagger
+ * /vaccini/latest:
+ *   get:
+ *     summary: Percentuali di vaccinati ed immunizzati per i comuni siciliani nell'ultima settimana misurata
+ *     parameters:
+ *       - in: query
+ *         name: q
+ *         schema:
+ *           type: string
+ *         description: Restituisce i campi che contengono parti della stringa <small>(es. q=Palermo)</small>
+ *       - in: query
+ *         name: prov
+ *         schema:
+ *           type: int
+ *         description: Restituisce i campi appartenenti ad un particolare codice provinciale <small>(es. prov=82)</small>
  *     tags: [Vaccini]
  *     responses:
  *       200:

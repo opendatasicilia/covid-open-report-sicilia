@@ -50,13 +50,56 @@ const func = require('../lib/functions');
  * @swagger
  * /incidenza:
  *   get:
- *     summary: Restituisce l'incidenza settimanale per i comuni siciliani
+ *     summary: Incidenza settimanale per i comuni siciliani
  *     parameters:
  *       - in: query
- *         name: comune
+ *         name: q
  *         schema:
  *           type: string
- *         description: Restituisce i comuni che contengono parti della stringa `comune`
+ *         description: Restituisce i campi che contengono parti della stringa <small>(es. q=Palermo)</small>
+ *       - in: query
+ *         name: prov
+ *         schema:
+ *           type: int
+ *         description: Restituisce i campi appartenenti ad un particolare codice provinciale <small>(es. prov=82)</small>
+ *       - in: query
+ *         name: from
+ *         schema:
+ *           type: string
+ *         description: Restituisce i campi a partire da una determinata data, in formato YYYY-MM-DD <small>(es. from=2021-10-10)</small>
+ *       - in: query
+ *         name: to
+ *         schema:
+ *           type: string
+ *         description: Restituisce i campi fino ad una determinata data, in formato YYYY-MM-DD <small>(es. to=2021-10-27)</small>
+ *     tags: [Incidenza]
+ *     responses:
+ *       200:
+ *         description: Statistiche incidenza settimanale per comune
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/Incidenza'
+ */
+
+/**
+ * @swagger
+ * /incidenza/latest:
+ *   get:
+ *     summary: Incidenza dell'ultima settimana misurata per i comuni siciliani
+ *     parameters:
+ *       - in: query
+ *         name: q
+ *         schema:
+ *           type: string
+ *         description: Restituisce i campi che contengono parti della stringa <small>(es. q=Palermo)</small>
+ *       - in: query
+ *         name: prov
+ *         schema:
+ *           type: int
+ *         description: Restituisce i campi appartenenti ad un particolare codice provinciale <small>(es. prov=82)</small>
  *     tags: [Incidenza]
  *     responses:
  *       200:
