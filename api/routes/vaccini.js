@@ -125,7 +125,7 @@ const schema = {
 const path = `${__dirname}/../../dati/vaccini/vaccini`;
 
 router.get('/', async (req, res) => {
-    const dati = await func.parse(path+'-latest.csv', schema)
+    const dati = await func.parse(path+'.csv', schema)
     const response = func.filter(dati, req.query);
 
     try{
