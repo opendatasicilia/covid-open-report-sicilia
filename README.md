@@ -61,4 +61,5 @@ target | Popolazione ISTAT 2021 over 12 | Numero | 2426
 
 ## Elaborazioni
 Dati aperti di questo tipo consentono la realizzazione di svariate elaborazioni:
+- [Sintesi Bollettino settimanale n° 3 del 20/10/2021: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_03/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
 - [Sintesi Bollettino settimanale n° 4 del 27/10/2021: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_04/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
