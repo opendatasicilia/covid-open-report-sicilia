@@ -56,6 +56,9 @@ comune | Denominazione del Comune | Testo | Alessandria della Rocca
 %vaccinati | Percentuale di persone vaccinate con almeno una dose (calcolata rispetto al target) | Numero | 84.65
 %immunizzati | Percentuale di: persone vaccinate con 2 o più dosi, persone vaccinate in monodose per pregressa infezione Covid, persone vaccinate con Janssen (calcolata rispetto al target) | Numero | 82.72
 
+**Nota bene:**
+Dal [Bollettino n°4](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n%C3%82%C2%B0%205%20del%204%20novembre.pdf) si apprende che _Per target si intende la popolazione residente ISTAT 2021 DI Età >= 12 ANNI_ quindi è possibile stimare il numero assoluto di persone vaccinate utilizzando [questo file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv).
+
 ### Licenza
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
 
