@@ -37,7 +37,7 @@ Campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 data | Data pubblicazione report DASOE | YYYY-MM-DD | 2021-10-27
 cod_prov | Codice ISTAT della Provincia | Numero | 84
-pro_com_t | Codice ISTAT del Comune | Numero | 084002
+pro_com_t | Codice ISTAT del Comune | Testo | 084002
 provincia | Denominazione della Provincia | Testo | Agrigento
 comune | Denominazione del Comune | Testo | Alessandria della Rocca
 incidenza | Incidenza cumulativa settimanale (ogni 100.000 abitanti) | Numero | 855
@@ -49,7 +49,7 @@ Campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
 data | Data pubblicazione report DASOE | YYYY-MM-DD | 2021-10-27
 cod_prov | Codice ISTAT della Provincia | Numero | 84
-pro_com_t | Codice ISTAT del Comune | Numero | 084002
+pro_com_t | Codice ISTAT del Comune | Testo | 084002
 provincia | Denominazione della Provincia | Testo | Agrigento
 comune | Denominazione del Comune | Testo | Alessandria della Rocca
 target | Popolazione ISTAT 2021 over 12 | Numero | 2426
@@ -63,3 +63,5 @@ target | Popolazione ISTAT 2021 over 12 | Numero | 2426
 Dati aperti di questo tipo consentono la realizzazione di svariate elaborazioni:
 - [Sintesi Bollettino settimanale n° 3 del 20/10/2021: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_03/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
 - [Sintesi Bollettino settimanale n° 4 del 27/10/2021: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_04/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
+- [Sintesi Bollettino settimanale n° 5 del 04/11/2021: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_05/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
+- [Report settimanale intereattivo (bozza)](https://datastudio.google.com/u/1/reporting/7f0563bf-c15d-4070-b37e-e986ec0edd09/page/zFUeC) di [Dennis Angemi](https://twitter.com/dennisangemi)
