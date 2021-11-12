@@ -10,6 +10,7 @@ Gli stessi dati alimentano gli API endpoints documentati e raggiungibili al [seg
 - [Report Completo 20 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2020%20Ottobre%202021.pdf)
 - [Report Completo 27 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2027%20Ottobre%202021.pdf)
 - [Bollettino n° 5 del 4 novembre.pdf](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n%C3%82%C2%B0%205%20del%204%20novembre.pdf)
+- [Bollettino settimanale n°6 del 10 novembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20settimanale%20n%C2%B06%20del%2010%20novembre%202021.pdf)
 
 ### Struttura repository
 ```
