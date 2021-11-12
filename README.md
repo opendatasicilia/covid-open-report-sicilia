@@ -25,6 +25,7 @@ covid-open-report-sicilia
 │       ├── 📄vaccini-latest.csv
 │       └── 📄vaccini.csv
 ├── 📂download
+│   ├── 📄report.csv
 │   └── 📄report-YYYYMMDD.pdf
 ├── 📂script
 │   ├── 📄script.sh
