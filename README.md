@@ -4,6 +4,8 @@ Dal 6 ottobre 2021 il Dipartimento Attività Sanitarie e Osservatorio Epidemiolo
 
 Gli stessi dati alimentano gli API endpoints documentati e raggiungibili al [seguente link](https://covid-open-report-sicilia.herokuapp.com/).
 
+![covid-open-report-sicilia](https://user-images.githubusercontent.com/77018886/143773850-a0f79d60-77e3-4a8c-bb82-5553c85c0bcf.png)
+
 ### Bollettini pubblicati
 - [Report 06 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2006%20Ottobre%202021.pdf)
 - [Report 13 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2013%20Ottobre%202021.pdf)
