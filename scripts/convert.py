@@ -95,10 +95,10 @@ def getVax(vax):
    
     # Esporta CSV
     print('Esporto CSV...')
-    out.to_csv(path+'/dati-csv/vaccini/vaccini-'+date.replace("-", "")+'.csv', index=None, header=True)
-    out.to_csv(path+'/dati-csv/vaccini/vaccini-latest.csv', index=None, header=True)
-    out.to_csv(path+'/dati-csv/vaccini/vaccini.csv', mode='a', index=None, header=False)
-    csv = path+'/dati-csv/vaccini/vaccini-'+date.replace("-", "")+'.csv'
+    out.to_csv(path+'/dati/vaccini/vaccini-'+date.replace("-", "")+'.csv', index=None, header=True)
+    out.to_csv(path+'/dati/vaccini/vaccini-latest.csv', index=None, header=True)
+    out.to_csv(path+'/dati/vaccini/vaccini.csv', mode='a', index=None, header=False)
+    csv = path+'/dati/vaccini/vaccini-'+date.replace("-", "")+'.csv'
 
     return csv
 
@@ -171,10 +171,10 @@ def getIncidenza(pdf):
 
     # Esporta CSV
     print('Esporto CSV...')
-    out.to_csv(path+'/dati-csv/incidenza/incidenza-'+date.replace("-", "")+'.csv', index=None, header=True)
-    out.to_csv(path+'/dati-csv/incidenza/incidenza-latest.csv', index=None, header=True)
-    out.to_csv(path+'/dati-csv/incidenza/incidenza.csv', mode='a', index=None, header=False)
-    csv = path+'/dati-csv/incidenza/incidenza-'+date.replace("-", "")+'.csv'
+    out.to_csv(path+'/dati/incidenza/incidenza-'+date.replace("-", "")+'.csv', index=None, header=True)
+    out.to_csv(path+'/dati/incidenza/incidenza-latest.csv', index=None, header=True)
+    out.to_csv(path+'/dati/incidenza/incidenza.csv', mode='a', index=None, header=False)
+    csv = path+'/dati/incidenza/incidenza-'+date.replace("-", "")+'.csv'
 
     return csv
 
