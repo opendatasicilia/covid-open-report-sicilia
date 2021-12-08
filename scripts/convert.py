@@ -178,5 +178,27 @@ def getIncidenza(pdf):
 
     return csv
 
+def addToReadme():
+    '''
+    Aggiunge ultima riga del report.csv al file README.md
+    '''
+    mesi = {"01":"Gennaio","02":"Febbraio","03":"Marzo","04":"Aprile","05":"Maggio","06":"Giugno","07":"Luglio","08":"Agosto","09":"Settembre","10":"Ottobre","11":"Novembre","12":"Dicembre"}
+    data = date.split('-')
+    data = data[2] + " " + mesi[data[1]] + " " + data[0]
+
+    title_index = ""
+    with open("./README.md", "r+", encoding="utf-8") as f:
+        lines = f.readlines()
+        for index, line in enumerate(lines):
+            if "Bollettini pubblicati" in line:
+                title_index = index
+        insert_index = (title_index + int(latest['n'])+1)
+        insert_content = "- [Report " + data + ".pdf](" + latest['URL'] + ")\n"
+        lines.insert(insert_index, insert_content)
+        f.seek(0)
+        f.writelines(lines)
+    f.close()
+
 getIncidenza(getRanges(path+'/download/'+latest['nome_file']))
 getVax(getRanges(path+'/download/'+latest['nome_file']))
+addToReadme()
