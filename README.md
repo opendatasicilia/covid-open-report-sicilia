@@ -17,6 +17,7 @@ Gli stessi dati alimentano gli API endpoints documentati e raggiungibili al [seg
 - [Report 24 Novembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n.8%20del%2024%20novembre%202021.pdf)
 - [Report 01 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20settimanale%201%20dicembre%20%282%29.pdf)
 
+- [Report 08 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%2008%20Dicembre%202021.pdf)
 ### Struttura repository
 ```
 covid-open-report-sicilia
