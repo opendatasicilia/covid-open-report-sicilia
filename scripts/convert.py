@@ -192,7 +192,7 @@ def addToReadme():
         for index, line in enumerate(lines):
             if "Bollettini pubblicati" in line:
                 title_index = index
-        insert_index = (title_index + int(latest['n'])+1)
+        insert_index = title_index + int(latest['n'])
         insert_content = "- [Report " + data + ".pdf](" + latest['URL'] + ")\n"
         lines.insert(insert_index, insert_content)
         f.seek(0)
