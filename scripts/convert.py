@@ -199,6 +199,19 @@ def addToReadme():
         f.writelines(lines)
     f.close()
 
+def getAbs(vax):
+    target = pd.read_csv('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv', converters={'pro_com_t': '{:0>6}'.format})
+    target = target[['pro_com_t','>=12']]
+    target.columns = ['pro_com_t', 'target']
+    out_abs = pd.merge(vax, target, on='pro_com_t', how='inner')
+    out_abs['%vaccinati'] = (out_abs['target'] * out_abs['%vaccinati'].astype(float) / 100).round().astype(int)
+    out_abs['%immunizzati'] = (out_abs['target'] * out_abs['%immunizzati'].astype(float) / 100).round().astype(int)
+    out_abs.columns = ['data', 'cod_prov', 'pro_com_t', 'provincia', 'comune', 'vaccinati', 'immunizzati', 'target']
+    out_abs.to_csv(path+'/dati/vaccini/vaccini-abs-'+date.replace("-", "")+'.csv', index=None, header=True)
+    out_abs.to_csv(path+'/dati/vaccini/vaccini-abs-latest.csv', index=None, header=True)
+
 getIncidenza(getRanges(path+'/download/'+latest['nome_file']))
 getVax(getRanges(path+'/download/'+latest['nome_file']))
 addToReadme()
+
+#getAbs(getVax(getRanges(path+'/download/'+latest['nome_file'])))
