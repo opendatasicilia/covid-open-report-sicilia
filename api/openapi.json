@@ -4,7 +4,16 @@
         "info": {
             "title": "COVID Reports API",
             "version": "1.0.0",
-            "description": "API per dati epidemiologici e vaccinali Regione Sicilia"
+            "description": "API per dati epidemiologici e vaccinali Regione Sicilia",
+            "contact": {
+                "name": "OpenDataSicilia",
+                "url": "https://github.com/opendatasicilia/covid-open-report",
+                "email": "info@opendatasicilia.it"
+            },
+            "license" : {
+                "name": "Licenza: CC BY 4.0",
+                "url": "https://github.com/opendatasicilia/covid-open-report-sicilia/blob/main/LICENSE.md"
+            }
         },
         "servers": [
             {
