@@ -60,7 +60,7 @@ def check(url):
     '''
     try:
         feed = feedparser.parse(url+'/feed')
-        f = [field for field in feed['entries'] if "a cura del Dasoe" in field['summary']]
+        f = [field for field in feed['entries'] if "bollettino settimanale" in field['title']]
         link = f[0]['links'][0]['href']
         if(link):
             newfile = parsePDF(link, url)
