@@ -65,23 +65,27 @@ def getVax(vax):
     # Leggi il PDF  VAX con tabula-py
     print('Leggo tabella Vaccini...attendi...')
     pages = list(range(vax['vaccini'][0], vax['vaccini'][1]+1))
-    pdf = tabula.read_pdf(vax['file'], pages=pages, pandas_options={'header': None}, multiple_tables=True, stream=True, silent=True)
+    pdf = tabula.read_pdf(vax['file'], pages=pages, pandas_options={'header': None}, multiple_tables=True, columns=['103, 607'])
     print('Ho letto.')
 
     # Unisci in un unico dataframe e bonifica i dati
     vax = pd.concat(pdf).reset_index(drop=True)
-    vax = vax.dropna(thresh=3)
-    vax = vax[~vax[0].str.contains("Provincia", na=False)]
-    vax.drop(vax.columns[[0]], axis=1, inplace=True)
+    vax = vax.dropna(thresh=3).dropna(subset=[0])
+    vax = vax[~vax[0].str.contains("Totale", na=False)]
 
     for index, row in vax.iterrows():
-        if(pd.isnull(row[2])):
-            row[2] = row[3]
-            row[3] = row[4]
-
+        if(row[0] == "Santo Stefano di"):
+            row[0] = "Santo Stefano di Camastra"
+            
+    vax = vax.drop([1,2,3], axis=1)
+    vax.columns = ['comune', 'totale']
+    vax[['%vaccinati','%immunizzati']] = vax.totale.str.split(expand=True)
+    vax = vax.drop(['totale'], axis=1)
+    
+    vax['%vaccinati'] = vax['%vaccinati'].str.replace(',', '.').str.rstrip('%')
+    vax['%immunizzati'] = vax['%immunizzati'].str.replace(',', '.').str.rstrip('%')
+    
     vax.reset_index(drop=True, inplace=True)
-    vax.drop(vax.columns[3], axis=1, inplace=True)
-    vax.columns = ['comune', '%vaccinati', '%immunizzati']
 
     # Carica l'helper comuni siciliani
     out = pd.merge(vax, comuni, on='comune', how='inner')
