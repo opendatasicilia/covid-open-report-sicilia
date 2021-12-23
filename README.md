@@ -18,6 +18,7 @@ Gli stessi dati alimentano gli API endpoints documentati e raggiungibili al [seg
 - [Report 01 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20settimanale%201%20dicembre%20%282%29.pdf)
 - [Report 08 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%2008%20Dicembre%202021.pdf)
 - [Report 15 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%20n.11%20del%2015%20Dicembre%202021.pdf)
+- [Report 22 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2012%20del%2022%20Dicembre%202021.pdf)
 
 ### Struttura repository
 ```
