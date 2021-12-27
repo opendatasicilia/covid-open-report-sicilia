@@ -77,4 +77,4 @@ Dati aperti di questo tipo consentono la realizzazione di svariate elaborazioni:
 - [Sintesi Bollettino settimanale n° 3 del 20/10/2021: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_03/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
 - [Sintesi Bollettino settimanale n° 4 del 27/10/2021: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_04/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
 - [Sintesi Bollettino settimanale n° 5 del 04/11/2021: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_05/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
-- [Report settimanale interattivo](https://datastudio.google.com/u/1/reporting/7f0563bf-c15d-4070-b37e-e986ec0edd09/page/zFUeC) di [Dennis Angemi](https://twitter.com/dennisangemi)
+- [Report settimanale interattivo](https://dasoe-report.netlify.app/) di [Open Data Sicilia](https://opendatasicilia.it) ([GitHub](https://github.com/opendatasicilia/cors-dashboard))
