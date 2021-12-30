@@ -162,6 +162,10 @@ def getIncidenza(pdf):
     # Rimuovi distretti (duplicati)
     incidenza = df[~df["comune"].duplicated(keep="last")]
     incidenza.reset_index(inplace=True, drop=True)
+
+    for index, row in incidenza.iterrows():
+        if(row[0] == "SANTA CATERINA"):
+            row[0] = "Santa Caterina Villarmosa"
     
     # Inner join e recupera info comuni
     out = pd.merge(incidenza, comuni, left_on=incidenza["comune"].str.lower(), right_on=comuni["comune"].str.lower(), how="inner")
