@@ -70,7 +70,8 @@ comune | Denominazione del Comune | Testo | Alessandria della Rocca
 %immunizzati | Percentuale di: persone vaccinate con 2 o più dosi, persone vaccinate in monodose per pregressa infezione Covid, persone vaccinate con Janssen (calcolata rispetto al target) | Numero | 82.72
 
 **Nota bene:**
-Dal [Bollettino n°4](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n%C3%82%C2%B0%205%20del%204%20novembre.pdf) si apprende che _Per target si intende la popolazione residente ISTAT 2021 DI Età >= 12 ANNI_ quindi è possibile stimare il numero assoluto di persone vaccinate utilizzando [questo file](https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/ISTAT_popolazione_2021.csv).
+- Dal [Bollettino n°4](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n%C3%82%C2%B0%205%20del%204%20novembre.pdf) si apprende che _Per target si intende la popolazione residente ISTAT 2021 DI Età >= 12 ANNI._
+- Dal [Bollettino n°12](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2012%20del%2022%20Dicembre%202021.pdf) si apprende che a partire dal [Bollettino n° 11 del 15/12/2021](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%20n.11%20del%2015%20Dicembre%202021.pdf) gli allegati relativi alla vaccinazione contemplano _il target 5-11 anni quale platea avente diritto alla vaccinazione, con un conseguente decremento della % di popolazione immunizzata per singolo comune._ Pertanto è possibile stimare il numero assoluto di persone vaccinate utilizzando [questo file json.](https://raw.githubusercontent.com/opendatasicilia/cors-dashboard/main/src/data/targets.json)
 
 ### Licenza
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
