@@ -3,8 +3,8 @@
 Dal 6 ottobre 2021 il Dipartimento Attività Sanitarie e Osservatorio Epidemiologico (DASOE) della Regione Siciliana rilascia bollettini settimanali (in formato PDF) ai quali sono allegate due tabelle contenenti **dati epidemiologici e vaccinali con dettaglio comunale**. Le tabelle allegate vengono convertite in CSV e caricate nella cartella [`dati`](https://github.com/opendatasicilia/covid-open-report-sicilia/tree/main/dati) di questo repo.
 
 Gli stessi dati alimentano:
-- gli API endpoints documentati e raggiungibili al [seguente link](https://covid-open-report-sicilia.herokuapp.com/);
-- la dashboard interattiva raggiungibile al [seguente link](https://report-dasoe.opendatasicilia.it/).
+- 📍 API endpoints documentati e raggiungibili al [seguente link](https://covid-open-report-sicilia.herokuapp.com/);
+- 📊 dashboard interattiva raggiungibile al [seguente link](https://report-dasoe.opendatasicilia.it/).
 
 ![covid-open-report-sicilia](https://user-images.githubusercontent.com/77018886/143773850-a0f79d60-77e3-4a8c-bb82-5553c85c0bcf.png)
 
