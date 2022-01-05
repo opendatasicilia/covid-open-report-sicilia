@@ -9,7 +9,7 @@ Gli stessi dati alimentano:
 
 ![covid-open-report-sicilia](https://user-images.githubusercontent.com/77018886/143773850-a0f79d60-77e3-4a8c-bb82-5553c85c0bcf.png)
 
-### Bollettini pubblicati
+## Bollettini pubblicati
 - [Report 06 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2006%20Ottobre%202021.pdf)
 - [Report 13 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2013%20Ottobre%202021.pdf)
 - [Report 20 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2020%20Ottobre%202021.pdf)
@@ -24,7 +24,7 @@ Gli stessi dati alimentano:
 - [Report 22 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2012%20del%2022%20Dicembre%202021.pdf)
 - [Report 29 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2013%20del%2029%20dicembre%202021.pdf)
 
-### Struttura repository
+## Struttura repository
 ```
 covid-open-report-sicilia
 ├── 📂dati
@@ -45,8 +45,13 @@ covid-open-report-sicilia
 └── 📂api
 ```
 
-### Schema dati
-#### Struttura file `incidenza-YYYYMMDD.csv`, `incidenza-latest.csv`, `incidenza.csv`
+## Schema dati
+### Dati per comune relativi a incidenza e nuovi casi settimanali
+
+**Directory:**  dati/incidenza<br>
+**Struttura file settimanale:** `incidenza-YYYYMMDD.csv`<br>
+**File complessivo:** `incidenza.csv`<br>
+**File ultimi dati (latest):** `incidenza-latest.csv`
 
 Campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
@@ -58,7 +63,13 @@ comune | Denominazione del Comune | Testo | Alessandria della Rocca
 incidenza | Incidenza cumulativa settimanale (ogni 100.000 abitanti) | Numero | 855
 casi | Nuovi casi settimanali | Numero | 6
 
-#### Struttura file `vaccini-YYYYMMDD.csv`, `vaccini-latest.csv`, `vaccini.csv`
+### Dati per comune relativi a persone vaccinate
+
+**Directory:**  dati/vaccini<br>
+**Struttura file settimanale:** `vaccini-YYYYMMDD.csv`<br>
+**File complessivo:** `vaccini.csv`<br>
+**File ultimi dati (latest):** `vaccini-latest.csv`
+
 
 Campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
@@ -74,7 +85,7 @@ comune | Denominazione del Comune | Testo | Alessandria della Rocca
 - Dal [Bollettino n°4](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n%C3%82%C2%B0%205%20del%204%20novembre.pdf) si apprende che _Per target si intende la popolazione residente ISTAT 2021 DI Età >= 12 ANNI._
 - Dal [Bollettino n°12](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2012%20del%2022%20Dicembre%202021.pdf) si apprende che a partire dal [Bollettino n° 11 del 15/12/2021](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%20n.11%20del%2015%20Dicembre%202021.pdf) gli allegati relativi alla vaccinazione contemplano _il target 5-11 anni quale platea avente diritto alla vaccinazione, con un conseguente decremento della % di popolazione immunizzata per singolo comune._ Pertanto è possibile stimare il numero assoluto di persone vaccinate utilizzando [questo file json.](https://raw.githubusercontent.com/opendatasicilia/cors-dashboard/main/src/data/targets.json)
 
-### Licenza
+## Licenza
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
 
 ## Elaborazioni
