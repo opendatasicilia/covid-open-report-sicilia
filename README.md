@@ -48,10 +48,12 @@ covid-open-report-sicilia
 ## Schema dati
 ### Dati per comune relativi a incidenza e nuovi casi settimanali
 
-**Directory:**  dati/incidenza<br>
-**Struttura file settimanale:** `incidenza-YYYYMMDD.csv`<br>
-**File complessivo:** `incidenza.csv`<br>
-**File ultimi dati (latest):** `incidenza-latest.csv`
+- Directory:  dati/incidenza<br>
+- Struttura file settimanale: `incidenza-YYYYMMDD.csv`<br>
+- File complessivo: `incidenza.csv`<br>
+- File ultimi dati (latest): `incidenza-latest.csv`
+- Encoding: `UTF-8`
+- Separatore di campo: `,`
 
 Campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
@@ -65,11 +67,12 @@ casi | Nuovi casi settimanali | Numero | 6
 
 ### Dati per comune relativi a persone vaccinate
 
-**Directory:**  dati/vaccini<br>
-**Struttura file settimanale:** `vaccini-YYYYMMDD.csv`<br>
-**File complessivo:** `vaccini.csv`<br>
-**File ultimi dati (latest):** `vaccini-latest.csv`
-
+- Directory:  dati/vaccini<br>
+- Struttura file settimanale: `vaccini-YYYYMMDD.csv`<br>
+- File complessivo: `vaccini.csv`<br>
+- File ultimi dati (latest): `vaccini-latest.csv`
+- Encoding: `UTF-8`
+- Separatore di campo: `,`
 
 Campo | Descrizione | Formato | Esempio
 -- | -- | -- | --
