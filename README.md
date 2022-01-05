@@ -95,3 +95,4 @@ comune | Denominazione del Comune | Testo | Alessandria della Rocca
 Dati aperti di questo tipo consentono la realizzazione di svariate elaborazioni:
 - [Report settimanale interattivo](https://report-dasoe.opendatasicilia.it/) di [Open Data Sicilia](https://opendatasicilia.it) ([GitHub](https://github.com/opendatasicilia/cors-dashboard))
 - [Sintesi Bollettino settimanale: Dati Epidemiologici e Vaccinali](https://opendatasicilia.github.io/OpenDataSicilia-per-il-Coronavirus/vaccini/report_sintesi/) di [Giovan Battista Vitrano](https://twitter.com/gbvitrano)
+- [MONIVAX - Monitora i vaccinati della tua città](https://github.com/opendatasicilia/monivax) di [Giovanni Pirrotta](https://twitter.com/gpirrotta)
