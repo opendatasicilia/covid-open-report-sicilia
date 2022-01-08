@@ -208,10 +208,11 @@ def addToReadme():
     f.close()
 
 def getAbs(vax):
+    vaccini = pd.read_csv(vax, converters={'pro_com_t': '{:0>6}'.format})
     target = pd.read_csv('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/target5.csv', converters={'pro_com_t': '{:0>6}'.format})
     target = target[['pro_com_t','>=5']]
     target.columns = ['pro_com_t', 'target']
-    out_abs = pd.merge(vax, target, on='pro_com_t', how='inner')
+    out_abs = pd.merge(vaccini, target, on='pro_com_t', how='inner')
     out_abs['%vaccinati'] = (out_abs['target'] * out_abs['%vaccinati'].astype(float) / 100).round().astype(int)
     out_abs['%immunizzati'] = (out_abs['target'] * out_abs['%immunizzati'].astype(float) / 100).round().astype(int)
     out_abs.columns = ['data', 'cod_prov', 'pro_com_t', 'provincia', 'comune', 'vaccinati', 'immunizzati', 'target']
