@@ -47,6 +47,7 @@ covid-open-report-sicilia
 ```
 
 ## Schema dati
+- metadata: [datapackage.](https://github.com/opendatasicilia/covid-open-report-sicilia/blob/main/datapackage.yaml)
 ### Dati per comune relativi a incidenza e nuovi casi settimanali
 
 - Directory:  dati/incidenza<br>
