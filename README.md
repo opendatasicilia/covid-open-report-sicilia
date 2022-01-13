@@ -24,6 +24,7 @@ Gli stessi dati alimentano:
 - [Report 22 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2012%20del%2022%20Dicembre%202021.pdf)
 - [Report 29 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2013%20del%2029%20dicembre%202021.pdf)
 - [Report 06 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/bollettino%2014%20finale.pdf)
+- [Report 12 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2012%20gennaio%202022.pdf)
 
 ## Struttura repository
 ```
