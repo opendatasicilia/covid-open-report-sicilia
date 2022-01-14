@@ -20,7 +20,7 @@ def getRanges(file):
     result_list = []
     r_pages = []
 
-    reader = PdfFileReader(file)
+    reader = PdfFileReader(file,strict=False)
     pages = reader.numPages
 
     for page_number in range(0, pages):
@@ -98,10 +98,12 @@ def getVax(vax):
     assert (len(out) == 390), "Errore: Sono presenti meno comuni del previsto."
    
     # Esporta CSV
-    print('Esporto CSV...')
-    out.to_csv(path+'/dati/vaccini/vaccini-'+date.replace("-", "")+'.csv', index=None, header=True)
-    out.to_csv(path+'/dati/vaccini/vaccini-latest.csv', index=None, header=True)
-    out.to_csv(path+'/dati/vaccini/vaccini.csv', mode='a', index=None, header=False)
+    lastUpdate = open(path+'/dati/vaccini/vaccini.csv').read().rsplit('\n', 2)[1].split(',')[0]
+    if date != lastUpdate:
+        print('Esporto CSV...')
+        out.to_csv(path+'/dati/vaccini/vaccini-'+date.replace("-", "")+'.csv', index=None, header=True)
+        out.to_csv(path+'/dati/vaccini/vaccini-latest.csv', index=None, header=True)
+        out.to_csv(path+'/dati/vaccini/vaccini.csv', mode='a', index=None, header=False)
     csv = path+'/dati/vaccini/vaccini-'+date.replace("-", "")+'.csv'
 
     return csv
@@ -113,7 +115,7 @@ def getIncidenza(pdf):
     '''
     # Legge le pagine relative all'incidenza
     print('Leggo tabella Incidenza...attendi...')
-    reader = PdfFileReader(pdf['file'])
+    reader = PdfFileReader(pdf['file'],strict=False)
     pages = pdf['incidenza']
     
     # Looppa le pagine, rimuovi numero della pagina e sostituisce breaklines
@@ -178,10 +180,12 @@ def getIncidenza(pdf):
     assert (len(out) == 390), "Errore: Sono presenti meno comuni del previsto."
 
     # Esporta CSV
-    print('Esporto CSV...')
-    out.to_csv(path+'/dati/incidenza/incidenza-'+date.replace("-", "")+'.csv', index=None, header=True)
-    out.to_csv(path+'/dati/incidenza/incidenza-latest.csv', index=None, header=True)
-    out.to_csv(path+'/dati/incidenza/incidenza.csv', mode='a', index=None, header=False)
+    lastUpdate = open(path+'/dati/incidenza/incidenza.csv').read().rsplit('\n', 2)[1].split(',')[0]
+    if date != lastUpdate:
+        print('Esporto CSV...')
+        out.to_csv(path+'/dati/incidenza/incidenza-'+date.replace("-", "")+'.csv', index=None, header=True)
+        out.to_csv(path+'/dati/incidenza/incidenza-latest.csv', index=None, header=True)
+        out.to_csv(path+'/dati/incidenza/incidenza.csv', mode='a', index=None, header=False)
     csv = path+'/dati/incidenza/incidenza-'+date.replace("-", "")+'.csv'
 
     return csv
@@ -201,10 +205,13 @@ def addToReadme():
             if "Bollettini pubblicati" in line:
                 title_index = index
         insert_index = title_index + int(latest['n'])
-        insert_content = "- [Report " + data + ".pdf](" + latest['URL'] + ")\n"
-        lines.insert(insert_index, insert_content)
-        f.seek(0)
-        f.writelines(lines)
+        lastDay = lines[insert_index].split(' ')[2]
+        newDay = date.split('-')[2]
+        if lastDay != newDay:
+            insert_content = "- [Report " + data + ".pdf](" + latest['URL'] + ")\n"
+            lines.insert(insert_index, insert_content)
+            f.seek(0)
+            f.writelines(lines)
     f.close()
 
 def getAbs(vax):
