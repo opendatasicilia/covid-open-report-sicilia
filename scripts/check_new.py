@@ -60,9 +60,11 @@ def check(url):
     '''
     try:
         feed = feedparser.parse(url+'/feed')
-        f = [field for field in feed['entries'] if ("bollettino settimanale" in field['title'] or "a cura del dasoe" in field['summary'].lower() or "Bollettino settimanale Dasoe" in field['summary'] or "Bollettino settimanale" in field['title'])]
+        f = [field for field in feed['entries'] if ("bollettino settimanale" in field['title'].lower() or ("a cura del dasoe" or "bollettino settimanale dasoe") in field['summary'].lower())]
+        #print(f[0].title)
         link = f[0]['links'][0]['href']
         if(link):
+            #print(link)
             newfile = parsePDF(link, url)
             report = pd.read_csv(path + "report.csv")
             if newfile not in report.URL.values:
