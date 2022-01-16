@@ -2,9 +2,6 @@
 
 # This script will change the label of the fields '%immunizzati' and '%vaccinati' of every csv file in the dati/vaccini directory
 
-# Test su singolo file. Funziona!
-# sed 's/%immunizzati/%seconda_dose/' ../dati/vaccini/vaccini-latest.csv > ../dati/vaccini/test.csv
-
 # Rename '%vaccinati' to '%prima_dose' and '%immunizzati' to '%seconda_dose'
 for file in ../dati/vaccini/*.csv
 do
