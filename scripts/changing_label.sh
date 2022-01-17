@@ -6,8 +6,8 @@
 for file in ../dati/vaccini/*.csv
 do
     echo "Processing $file"
-    sed 's/%vaccinati/%prima_dose/' $file > ${file}_new.csv
+    sed 's/%vaccinati/prima_dose/' $file > ${file}_new.csv
     mv ${file}_new.csv $file
-    sed 's/%immunizzati/%seconda_dose/' $file > ${file}_new.csv
+    sed 's/%immunizzati/seconda_dose/' $file > ${file}_new.csv
     mv ${file}_new.csv $file
 done
