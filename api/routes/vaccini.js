@@ -24,10 +24,10 @@ const func = require('../lib/functions')
  *         comune:
  *           type: string
  *           description: Denominazione del Comune
- *         %vaccinati:
+ *         prima_dose:
  *           type: float
  *           description: Percentuale di persone vaccinate con almeno una dose (calcolata rispetto al target)
- *         %immunizzati:
+ *         seconda_dose:
  *           type: float
  *           description: Percentuale di persone vaccinate con 2 o più dosi, persone vaccinate in monodose per pregressa infezione Covid, persone vaccinate con Janssen (calcolata rispetto al target)
  *       example:
@@ -36,8 +36,8 @@ const func = require('../lib/functions')
  *         pro_com_t: "084002"
  *         provincia: "Agrigento"
  *         comune: "Alessandria della Rocca"
- *         %vaccinati: 84.65
- *         %immunizzati: 82.72
+ *         prima_dose: 84.65
+ *         seconda_dose: 82.72
  */
 
  /**
@@ -118,8 +118,8 @@ const schema = {
     'pro_com_t': "string",
     'provincia': "string",
     'comune': "string",
-    '%vaccinati': "float",
-    '%immunizzati': "float",
+    'prima_dose': "float",
+    'seconda_dose': "float",
 }
 
 const path = `${__dirname}/../../dati/vaccini/vaccini`;

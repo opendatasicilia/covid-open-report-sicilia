@@ -79,19 +79,19 @@ def getVax(vax):
             
     vax = vax.drop([1,2,3], axis=1)
     vax.columns = ['comune', 'totale']
-    vax[['%vaccinati','%immunizzati']] = vax.totale.str.split(expand=True)
+    vax[['prima_dose','seconda_dose']] = vax.totale.str.split(expand=True)
     vax = vax.drop(['totale'], axis=1)
     
-    vax['%vaccinati'] = vax['%vaccinati'].str.replace(',', '.').str.rstrip('%')
-    vax['%immunizzati'] = vax['%immunizzati'].str.replace(',', '.').str.rstrip('%')
+    vax['prima_dose'] = vax['prima_dose'].str.replace(',', '.').str.rstrip('%')
+    vax['seconda_dose'] = vax['seconda_dose'].str.replace(',', '.').str.rstrip('%')
     
     vax.reset_index(drop=True, inplace=True)
 
     # Carica l'helper comuni siciliani
     out = pd.merge(vax, comuni, on='comune', how='inner')
-    out = out[['cod_prov', 'pro_com_t', 'provincia','comune', '%vaccinati', '%immunizzati']]
-    out['%vaccinati'] = out['%vaccinati'].str.replace(',', '.').str.rstrip('%')
-    out['%immunizzati'] = out['%immunizzati'].str.replace(',', '.').str.rstrip('%')
+    out = out[['cod_prov', 'pro_com_t', 'provincia','comune', 'prima_dose', 'seconda_dose']]
+    out['prima_dose'] = out['prima_dose'].str.replace(',', '.').str.rstrip('%')
+    out['seconda_dose'] = out['seconda_dose'].str.replace(',', '.').str.rstrip('%')
     out.insert(0, 'data', date)
 
     # Controlla che ci siano tutti i comuni
@@ -220,9 +220,9 @@ def getAbs(vax):
     target = target[['pro_com_t','>=5']]
     target.columns = ['pro_com_t', 'target']
     out_abs = pd.merge(vaccini, target, on='pro_com_t', how='inner')
-    out_abs['%vaccinati'] = (out_abs['target'] * out_abs['%vaccinati'].astype(float) / 100).round().astype(int)
-    out_abs['%immunizzati'] = (out_abs['target'] * out_abs['%immunizzati'].astype(float) / 100).round().astype(int)
-    out_abs.columns = ['data', 'cod_prov', 'pro_com_t', 'provincia', 'comune', 'vaccinati', 'immunizzati', 'target']
+    out_abs['prima_dose'] = (out_abs['target'] * out_abs['prima_dose'].astype(float) / 100).round().astype(int)
+    out_abs['seconda_dose'] = (out_abs['target'] * out_abs['seconda_dose'].astype(float) / 100).round().astype(int)
+    out_abs.columns = ['data', 'cod_prov', 'pro_com_t', 'provincia', 'comune', 'prima_dose', 'seconda_dose', 'target']
     out_abs.to_csv(path+'/dati/vaccini/vaccini-abs-'+date.replace("-", "")+'.csv', index=None, header=True)
     out_abs.to_csv(path+'/dati/vaccini/vaccini-abs-latest.csv', index=None, header=True)
 
