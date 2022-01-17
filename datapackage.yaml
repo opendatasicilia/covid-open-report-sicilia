@@ -29,10 +29,10 @@ resources:
         - name: comune
           type: string
           description: Denominazione del Comune
-        - name: 'prima_dose'
+        - name: '%vaccinati'
           type: number
           description: Percentuale di persone vaccinate con almeno una dose (calcolata rispetto al target)
-        - name: 'seconda_dose'
+        - name: '%immunizzati'
           type: number
           description: Percentuale di persone vaccinate con 2 o più dosi, persone vaccinate in monodose per pregressa infezione Covid, persone vaccinate con Janssen (calcolata rispetto al target)
     scheme: file

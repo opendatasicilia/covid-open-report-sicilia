@@ -1,4 +1,4 @@
-data,cod_prov,pro_com_t,provincia,comune,prima_dose,seconda_dose
+data,cod_prov,pro_com_t,provincia,comune,%vaccinati,%immunizzati
 2021-12-29,84,084001,Agrigento,Agrigento,85.20,83.05
 2021-12-29,84,084002,Agrigento,Alessandria della Rocca,82.57,81.04
 2021-12-29,84,084003,Agrigento,Aragona,85.06,83.84
