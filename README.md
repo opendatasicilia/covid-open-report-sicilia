@@ -1,5 +1,7 @@
+⚠️ Se vuoi rimanere aggiornato, ti puoi iscrivere al [feed RSS dei ChangeLog](https://github.com/opendatasicilia/covid-open-report-sicilia/commits/main/CHANGELOG.md.atom)
+
 # COVID open report Sicilia
-[![Frictionless](https://github.com/opendatasicilia/covid-open-report-sicilia/actions/workflows/frictionless.yaml/badge.svg)](https://repository.frictionlessdata.io/report?user=opendatasicilia&repo=covid-open-report-sicilia&flow=frictionless) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a> 
+[![Frictionless](https://github.com/opendatasicilia/covid-open-report-sicilia/actions/workflows/frictionless.yaml/badge.svg)](https://repository.frictionlessdata.io/report?user=opendatasicilia&repo=covid-open-report-sicilia&flow=frictionless) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
 
 Dal 6 ottobre 2021 il Dipartimento Attività Sanitarie e Osservatorio Epidemiologico (DASOE) della Regione Siciliana rilascia bollettini settimanali (in formato PDF) ai quali sono allegate due tabelle contenenti **dati epidemiologici e vaccinali con dettaglio comunale**. Le tabelle allegate vengono convertite in CSV e caricate nella cartella [`dati`](https://github.com/opendatasicilia/covid-open-report-sicilia/tree/main/dati) di questo repo.
 
