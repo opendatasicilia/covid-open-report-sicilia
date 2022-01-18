@@ -95,7 +95,7 @@ def getVax(vax):
     out.insert(0, 'data', date)
 
     # Controlla che ci siano tutti i comuni
-    assert (len(out) == 390), "Errore: Sono presenti meno comuni del previsto."
+    assert (len(out) == 390 or 391), "Errore: Sono presenti meno comuni del previsto."
    
     # Esporta CSV
     lastUpdate = open(path+'/dati/vaccini/vaccini.csv').read().rsplit('\n', 2)[1].split(',')[0]
@@ -177,7 +177,7 @@ def getIncidenza(pdf):
     out.insert(0, 'data', date)
 
     # Controlla che ci siano tutti i comuni
-    assert (len(out) == 390), "Errore: Sono presenti meno comuni del previsto."
+    assert (len(out) == 390 or 391), "Errore: Sono presenti meno comuni del previsto."
 
     # Esporta CSV
     lastUpdate = open(path+'/dati/incidenza/incidenza.csv').read().rsplit('\n', 2)[1].split(',')[0]
