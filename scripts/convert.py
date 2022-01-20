@@ -205,13 +205,17 @@ def addToReadme():
             if "Bollettini pubblicati" in line:
                 title_index = index
         insert_index = title_index + int(latest['n'])
-        lastDay = lines[insert_index].split(' ')[2]
+        try:
+            lastDay = lines[insert_index].split(' ')[2]
+        except:
+            lastDay = lines[insert_index-1].split(' ')[2]
         newDay = date.split('-')[2]
         if lastDay != newDay:
             insert_content = "- [Report " + data + ".pdf](" + latest['URL'] + ")\n"
             lines.insert(insert_index, insert_content)
             f.seek(0)
             f.writelines(lines)
+        f.seek(0)
     f.close()
 
 def getAbs(vax):
