@@ -28,6 +28,7 @@ Gli stessi dati alimentano:
 - [Report 06 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/bollettino%2014%20finale.pdf)
 - [Report 12 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2012%20gennaio%202022.pdf)
 - [Report 19 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2016%20del%2019%20Gennaio%202022.pdf)
+- [Report 26 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2017%20del%2026%20Gennaio%202022.pdf)
 
 ## Struttura repository
 ```
