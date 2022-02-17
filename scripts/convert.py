@@ -76,14 +76,14 @@ def getVax(vax):
     for index, row in vax.iterrows():
         if(row[0] == "Santo Stefano di"):
             row[0] = "Santo Stefano di Camastra"
-            
-    vax = vax.drop([1,2,3], axis=1)
+    vax = vax.drop([1,2,3,5,6], axis=1)
     vax.columns = ['comune', 'totale']
     vax[['prima_dose','seconda_dose']] = vax.totale.str.split(expand=True)
     vax = vax.drop(['totale'], axis=1)
     
     vax['prima_dose'] = vax['prima_dose'].str.replace(',', '.').str.rstrip('%')
     vax['seconda_dose'] = vax['seconda_dose'].str.replace(',', '.').str.rstrip('%')
+    vax.dropna(subset = ['seconda_dose'], inplace=True)
     
     vax.reset_index(drop=True, inplace=True)
 
