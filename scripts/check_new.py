@@ -60,6 +60,9 @@ def check(url):
     '''
     try:
         feed = feedparser.parse(url+'/feed')
+        if (not hasattr(feed, 'status')) or feed.status != 200:
+            print('Errore di connessione')
+            exit()
         f = [field for field in feed['entries'] if ("bollettino settimanale" in field['title'].lower() or ("a cura del dasoe" or "bollettino settimanale dasoe") in field['summary'].lower())]
         #print(f[0].title)
         link = f[0]['links'][0]['href']
