@@ -8189,3 +8189,393 @@ data,cod_prov,pro_com_t,provincia,comune,prima_dose,seconda_dose
 2022-02-23,81,081021,Trapani,Trapani,85.41,81.80
 2022-02-23,81,081022,Trapani,Valderice,87.39,84.00
 2022-02-23,81,081023,Trapani,Vita,93.95,91.07
+2022-03-09,84,084001,Agrigento,Agrigento,92.37,90.43
+2022-03-09,84,084002,Agrigento,Alessandria della Rocca,89.72,87.76
+2022-03-09,84,084003,Agrigento,Aragona,92.14,91.52
+2022-03-09,84,084004,Agrigento,Bivona,90.65,89.88
+2022-03-09,84,084005,Agrigento,Burgio,93.43,93.15
+2022-03-09,84,084006,Agrigento,Calamonaci,83.95,83.43
+2022-03-09,84,084007,Agrigento,Caltabellotta,88.54,88.13
+2022-03-09,84,084008,Agrigento,Camastra,85.65,83.76
+2022-03-09,84,084009,Agrigento,Cammarata,90.56,89.09
+2022-03-09,84,084010,Agrigento,Campobello di Licata,88.16,85.50
+2022-03-09,84,084011,Agrigento,Canicattì,86.84,85.44
+2022-03-09,84,084012,Agrigento,Casteltermini,89.34,88.50
+2022-03-09,84,084013,Agrigento,Castrofilippo,81.95,82.15
+2022-03-09,84,084014,Agrigento,Cattolica Eraclea,86.00,84.53
+2022-03-09,84,084015,Agrigento,Cianciana,92.58,91.51
+2022-03-09,84,084016,Agrigento,Comitini,94.24,91.42
+2022-03-09,84,084017,Agrigento,Favara,90.02,88.26
+2022-03-09,84,084018,Agrigento,Grotte,91.61,91.44
+2022-03-09,84,084019,Agrigento,Joppolo Giancaxio,87.51,85.34
+2022-03-09,84,084020,Agrigento,Lampedusa e Linosa,86.50,83.77
+2022-03-09,84,084021,Agrigento,Licata,85.63,83.93
+2022-03-09,84,084022,Agrigento,Lucca Sicula,94.38,92.37
+2022-03-09,84,084023,Agrigento,Menfi,90.34,89.56
+2022-03-09,84,084024,Agrigento,Montallegro,89.54,89.63
+2022-03-09,84,084025,Agrigento,Montevago,92.14,91.30
+2022-03-09,84,084026,Agrigento,Naro,86.08,84.11
+2022-03-09,84,084027,Agrigento,Palma di Montechiaro,78.43,75.45
+2022-03-09,84,084028,Agrigento,Porto Empedocle,87.23,85.81
+2022-03-09,84,084029,Agrigento,Racalmuto,87.32,86.43
+2022-03-09,84,084030,Agrigento,Raffadali,89.86,87.79
+2022-03-09,84,084031,Agrigento,Ravanusa,77.64,76.24
+2022-03-09,84,084032,Agrigento,Realmonte,88.97,86.64
+2022-03-09,84,084033,Agrigento,Ribera,86.18,84.52
+2022-03-09,84,084034,Agrigento,Sambuca di Sicilia,93.35,91.90
+2022-03-09,84,084035,Agrigento,San Biagio Platani,88.62,86.13
+2022-03-09,84,084036,Agrigento,San Giovanni Gemini,89.04,87.33
+2022-03-09,84,084037,Agrigento,Santa Elisabetta,91.47,89.56
+2022-03-09,84,084038,Agrigento,Santa Margherita di Belice,90.67,89.06
+2022-03-09,84,084039,Agrigento,Sant'Angelo Muxaro,85.64,84.34
+2022-03-09,84,084040,Agrigento,Santo Stefano Quisquina,92.04,90.92
+2022-03-09,84,084041,Agrigento,Sciacca,93.37,94.92
+2022-03-09,84,084042,Agrigento,Siculiana,86.79,85.20
+2022-03-09,84,084043,Agrigento,Villafranca Sicula,89.85,88.85
+2022-03-09,85,085001,Caltanissetta,Acquaviva Platani,94.21,93.06
+2022-03-09,85,085002,Caltanissetta,Bompensiere,89.72,87.15
+2022-03-09,85,085003,Caltanissetta,Butera,78.44,75.47
+2022-03-09,85,085004,Caltanissetta,Caltanissetta,87.12,85.08
+2022-03-09,85,085005,Caltanissetta,Campofranco,84.95,87.66
+2022-03-09,85,085006,Caltanissetta,Delia,82.87,81.64
+2022-03-09,85,085007,Caltanissetta,Gela,79.09,75.29
+2022-03-09,85,085008,Caltanissetta,Marianopoli,81.46,77.53
+2022-03-09,85,085009,Caltanissetta,Mazzarino,83.90,79.19
+2022-03-09,85,085010,Caltanissetta,Milena,92.90,90.72
+2022-03-09,85,085011,Caltanissetta,Montedoro,90.42,88.44
+2022-03-09,85,085012,Caltanissetta,Mussomeli,90.34,89.51
+2022-03-09,85,085013,Caltanissetta,Niscemi,81.78,79.97
+2022-03-09,85,085014,Caltanissetta,Resuttano,91.85,97.09
+2022-03-09,85,085015,Caltanissetta,Riesi,81.44,80.08
+2022-03-09,85,085016,Caltanissetta,San Cataldo,87.41,86.25
+2022-03-09,85,085017,Caltanissetta,Santa Caterina Villarmosa,88.68,91.20
+2022-03-09,85,085018,Caltanissetta,Serradifalco,88.07,86.88
+2022-03-09,85,085019,Caltanissetta,Sommatino,86.40,84.64
+2022-03-09,85,085020,Caltanissetta,Sutera,90.61,90.86
+2022-03-09,85,085021,Caltanissetta,Vallelunga Pratameno,82.92,83.79
+2022-03-09,85,085022,Caltanissetta,Villalba,82.29,85.15
+2022-03-09,87,087001,Catania,Aci Bonaccorsi,81.17,78.13
+2022-03-09,87,087002,Catania,Aci Castello,77.64,75.24
+2022-03-09,87,087003,Catania,Aci Catena,76.12,73.66
+2022-03-09,87,087005,Catania,Aci Sant'Antonio,78.85,76.51
+2022-03-09,87,087004,Catania,Acireale,81.08,78.62
+2022-03-09,87,087006,Catania,Adrano,77.42,74.48
+2022-03-09,87,087007,Catania,Belpasso,75.94,72.92
+2022-03-09,87,087008,Catania,Biancavilla,81.95,79.06
+2022-03-09,87,087009,Catania,Bronte,84.32,81.42
+2022-03-09,87,087010,Catania,Calatabiano,83.69,83.04
+2022-03-09,87,087011,Catania,Caltagirone,87.99,89.44
+2022-03-09,87,087012,Catania,Camporotondo Etneo,71.08,67.32
+2022-03-09,87,087013,Catania,Castel di Iudica,77.88,74.71
+2022-03-09,87,087014,Catania,Castiglione di Sicilia,85.61,81.56
+2022-03-09,87,087015,Catania,Catania,90.64,86.87
+2022-03-09,87,087016,Catania,Fiumefreddo di Sicilia,80.86,78.27
+2022-03-09,87,087017,Catania,Giarre,83.27,79.87
+2022-03-09,87,087018,Catania,Grammichele,82.84,82.91
+2022-03-09,87,087019,Catania,Gravina di Catania,74.32,71.63
+2022-03-09,87,087020,Catania,Licodia Eubea,84.46,81.80
+2022-03-09,87,087021,Catania,Linguaglossa,83.45,81.13
+2022-03-09,87,087022,Catania,Maletto,88.18,86.13
+2022-03-09,87,087057,Catania,Maniace,75.35,71.94
+2022-03-09,87,087023,Catania,Mascali,78.47,75.50
+2022-03-09,87,087024,Catania,Mascalucia,73.92,70.72
+2022-03-09,87,087056,Catania,Mazzarrone,85.25,83.77
+2022-03-09,87,087025,Catania,Militello in Val di Catania,80.18,80.34
+2022-03-09,87,087026,Catania,Milo,84.23,82.04
+2022-03-09,87,087027,Catania,Mineo,77.50,78.02
+2022-03-09,87,087028,Catania,Mirabella Imbaccari,85.04,83.10
+2022-03-09,87,087029,Catania,Misterbianco,72.48,69.40
+2022-03-09,87,087030,Catania,Motta Sant'Anastasia,75.80,72.57
+2022-03-09,87,087031,Catania,Nicolosi,74.30,70.70
+2022-03-09,87,087032,Catania,Palagonia,75.83,76.03
+2022-03-09,87,087033,Catania,Paternò,81.44,77.70
+2022-03-09,87,087034,Catania,Pedara,73.00,69.95
+2022-03-09,87,087035,Catania,Piedimonte Etneo,78.14,75.90
+2022-03-09,87,087036,Catania,Raddusa,82.12,79.91
+2022-03-09,87,087058,Catania,Ragalna,68.65,66.54
+2022-03-09,87,087037,Catania,Ramacca,80.41,80.62
+2022-03-09,87,087038,Catania,Randazzo,82.58,79.54
+2022-03-09,87,087039,Catania,Riposto,79.14,76.16
+2022-03-09,87,087040,Catania,San Cono,85.78,83.63
+2022-03-09,87,087041,Catania,San Giovanni la Punta,78.00,75.44
+2022-03-09,87,087042,Catania,San Gregorio di Catania,80.20,77.86
+2022-03-09,87,087043,Catania,San Michele di Ganzaria,82.90,81.22
+2022-03-09,87,087044,Catania,San Pietro Clarenza,71.52,67.85
+2022-03-09,87,087047,Catania,Santa Maria di Licodia,76.15,73.10
+2022-03-09,87,087048,Catania,Santa Venerina,79.12,76.32
+2022-03-09,87,087045,Catania,Sant'Agata li Battiati,77.44,75.86
+2022-03-09,87,087046,Catania,Sant'Alfio,80.08,77.39
+2022-03-09,87,087049,Catania,Scordia,85.64,83.33
+2022-03-09,87,087050,Catania,Trecastagni,77.71,74.64
+2022-03-09,87,087051,Catania,Tremestieri Etneo,75.64,72.92
+2022-03-09,87,087052,Catania,Valverde,77.53,75.08
+2022-03-09,87,087053,Catania,Viagrande,78.14,75.87
+2022-03-09,87,087054,Catania,Vizzini,86.76,83.33
+2022-03-09,87,087055,Catania,Zafferana Etnea,80.10,77.21
+2022-03-09,86,086001,Enna,Agira,80.72,76.92
+2022-03-09,86,086002,Enna,Aidone,85.69,85.46
+2022-03-09,86,086003,Enna,Assoro,82.29,81.66
+2022-03-09,86,086004,Enna,Barrafranca,81.69,78.91
+2022-03-09,86,086005,Enna,Calascibetta,87.81,88.66
+2022-03-09,86,086006,Enna,Catenanuova,78.74,76.46
+2022-03-09,86,086007,Enna,Centuripe,79.58,78.15
+2022-03-09,86,086008,Enna,Cerami,92.09,92.48
+2022-03-09,86,086009,Enna,Enna,89.85,89.95
+2022-03-09,86,086010,Enna,Gagliano Castelferrato,87.12,86.20
+2022-03-09,86,086011,Enna,Leonforte,87.85,87.03
+2022-03-09,86,086012,Enna,Nicosia,87.70,88.31
+2022-03-09,86,086013,Enna,Nissoria,79.44,78.97
+2022-03-09,86,086014,Enna,Piazza Armerina,82.92,82.31
+2022-03-09,86,086015,Enna,Pietraperzia,87.35,85.91
+2022-03-09,86,086016,Enna,Regalbuto,82.92,81.78
+2022-03-09,86,086017,Enna,Sperlinga,90.04,89.60
+2022-03-09,86,086018,Enna,Troina,89.64,89.19
+2022-03-09,86,086019,Enna,Valguarnera Caropepe,82.60,83.15
+2022-03-09,86,086020,Enna,Villarosa,87.55,86.47
+2022-03-09,83,083107,Messina,Acquedolci,82.97,81.65
+2022-03-09,83,083001,Messina,Alcara li Fusi,89.50,87.76
+2022-03-09,83,083002,Messina,Alì,67.31,61.37
+2022-03-09,83,083003,Messina,Alì Terme,71.00,68.03
+2022-03-09,83,083004,Messina,Antillo,84.54,82.45
+2022-03-09,83,083005,Messina,Barcellona Pozzo di Gotto,86.93,88.00
+2022-03-09,83,083006,Messina,Basicò,85.61,85.97
+2022-03-09,83,083007,Messina,Brolo,91.62,93.79
+2022-03-09,83,083008,Messina,Capizzi,80.26,77.81
+2022-03-09,83,083009,Messina,Capo d'Orlando,87.35,87.22
+2022-03-09,83,083010,Messina,Capri Leone,84.97,84.85
+2022-03-09,83,083011,Messina,Caronia,86.26,84.29
+2022-03-09,83,083012,Messina,Casalvecchio Siculo,80.61,76.87
+2022-03-09,83,083013,Messina,Castel di Lucio,92.10,89.61
+2022-03-09,83,083014,Messina,Castell'Umberto,81.86,80.49
+2022-03-09,83,083015,Messina,Castelmola,74.25,72.69
+2022-03-09,83,083016,Messina,Castroreale,83.41,82.68
+2022-03-09,83,083017,Messina,Cesarò,85.55,81.01
+2022-03-09,83,083018,Messina,Condrò,75.50,73.50
+2022-03-09,83,083019,Messina,Falcone,85.26,86.03
+2022-03-09,83,083020,Messina,Ficarra,89.79,89.79
+2022-03-09,83,083021,Messina,Fiumedinisi,62.64,58.48
+2022-03-09,83,083022,Messina,Floresta,80.37,77.85
+2022-03-09,83,083023,Messina,Fondachelli-Fantina,81.63,81.94
+2022-03-09,83,083024,Messina,Forza d'Agrò,78.14,83.08
+2022-03-09,83,083025,Messina,Francavilla di Sicilia,84.64,81.58
+2022-03-09,83,083026,Messina,Frazzanò,89.29,88.78
+2022-03-09,83,083027,Messina,Furci Siculo,75.36,73.90
+2022-03-09,83,083028,Messina,Furnari,77.74,77.55
+2022-03-09,83,083029,Messina,Gaggi,76.96,72.96
+2022-03-09,83,083030,Messina,Galati Mamertino,88.54,86.14
+2022-03-09,83,083031,Messina,Gallodoro,78.47,85.25
+2022-03-09,83,083032,Messina,Giardini-Naxos,78.22,75.11
+2022-03-09,83,083033,Messina,Gioiosa Marea,79.69,80.29
+2022-03-09,83,083034,Messina,Graniti,82.71,80.66
+2022-03-09,83,083035,Messina,Gualtieri Sicaminò,80.86,78.93
+2022-03-09,83,083036,Messina,Itala,66.45,63.13
+2022-03-09,83,083037,Messina,Leni,72.62,75.79
+2022-03-09,83,083038,Messina,Letojanni,84.02,82.44
+2022-03-09,83,083039,Messina,Librizzi,85.86,85.08
+2022-03-09,83,083040,Messina,Limina,86.52,84.27
+2022-03-09,83,083041,Messina,Lipari,80.41,77.94
+2022-03-09,83,083042,Messina,Longi,87.07,84.77
+2022-03-09,83,083043,Messina,Malfa,81.60,84.92
+2022-03-09,83,083044,Messina,Malvagna,85.58,82.09
+2022-03-09,83,083045,Messina,Mandanici,78.15,77.78
+2022-03-09,83,083046,Messina,Mazzarrà Sant'Andrea,81.08,81.31
+2022-03-09,83,083047,Messina,Merì,81.83,82.69
+2022-03-09,83,083048,Messina,Messina,81.00,77.59
+2022-03-09,83,083049,Messina,Milazzo,82.82,81.67
+2022-03-09,83,083050,Messina,Militello Rosmarino,84.89,82.82
+2022-03-09,83,083051,Messina,Mirto,87.74,86.28
+2022-03-09,83,083052,Messina,Mistretta,92.78,92.12
+2022-03-09,83,083053,Messina,Moio Alcantara,89.71,86.33
+2022-03-09,83,083054,Messina,Monforte San Giorgio,80.92,79.39
+2022-03-09,83,083055,Messina,Mongiuffi Melia,85.69,89.03
+2022-03-09,83,083056,Messina,Montagnareale,79.41,81.35
+2022-03-09,83,083057,Messina,Montalbano Elicona,86.71,84.92
+2022-03-09,83,083058,Messina,Motta Camastra,79.74,76.13
+2022-03-09,83,083059,Messina,Motta d'Affermo,88.05,85.48
+2022-03-09,83,083060,Messina,Naso,86.42,85.95
+2022-03-09,83,083061,Messina,Nizza di Sicilia,76.66,72.83
+2022-03-09,83,083062,Messina,Novara di Sicilia,83.23,83.58
+2022-03-09,83,083063,Messina,Oliveri,83.54,82.53
+2022-03-09,83,083064,Messina,Pace del Mela,78.31,77.28
+2022-03-09,83,083065,Messina,Pagliara,75.90,74.19
+2022-03-09,83,083066,Messina,Patti,85.23,84.54
+2022-03-09,83,083067,Messina,Pettineo,84.97,83.89
+2022-03-09,83,083068,Messina,Piraino,87.26,88.93
+2022-03-09,83,083069,Messina,Raccuja,90.88,95.16
+2022-03-09,83,083070,Messina,Reitano,85.36,82.57
+2022-03-09,83,083071,Messina,Roccafiorita,114.20,118.18
+2022-03-09,83,083072,Messina,Roccalumera,76.84,73.80
+2022-03-09,83,083073,Messina,Roccavaldina,81.83,79.36
+2022-03-09,83,083074,Messina,Roccella Valdemone,84.94,81.96
+2022-03-09,83,083075,Messina,Rodì Milici,82.67,83.36
+2022-03-09,83,083076,Messina,Rometta,76.55,74.51
+2022-03-09,83,083077,Messina,San Filippo del Mela,76.36,75.65
+2022-03-09,83,083078,Messina,San Fratello,85.79,83.69
+2022-03-09,83,083079,Messina,San Marco d'Alunzio,93.56,93.28
+2022-03-09,83,083080,Messina,San Pier Niceto,94.86,86.02
+2022-03-09,83,083081,Messina,San Piero Patti,85.54,84.99
+2022-03-09,83,083082,Messina,San Salvatore di Fitalia,88.83,87.95
+2022-03-09,83,083090,Messina,San Teodoro,80.03,76.17
+2022-03-09,83,083083,Messina,Santa Domenica Vittoria,89.50,88.80
+2022-03-09,83,083086,Messina,Santa Lucia del Mela,80.92,78.62
+2022-03-09,83,083087,Messina,Santa Marina Salina,75.81,80.02
+2022-03-09,83,083089,Messina,Santa Teresa di Riva,76.37,73.30
+2022-03-09,83,083084,Messina,Sant'Agata di Militello,87.71,85.61
+2022-03-09,83,083085,Messina,Sant'Alessio Siculo,73.03,69.46
+2022-03-09,83,083088,Messina,Sant'Angelo di Brolo,86.42,86.02
+2022-03-09,83,083091,Messina,Santo Stefano di Camastra,85.48,83.33
+2022-03-09,83,083092,Messina,Saponara,80.41,78.16
+2022-03-09,83,083093,Messina,Savoca,75.22,70.96
+2022-03-09,83,083094,Messina,Scaletta Zanclea,70.94,67.55
+2022-03-09,83,083095,Messina,Sinagra,86.10,87.21
+2022-03-09,83,083096,Messina,Spadafora,80.85,78.46
+2022-03-09,83,083097,Messina,Taormina,78.37,77.59
+2022-03-09,83,083106,Messina,Terme Vigliatore,82.86,84.59
+2022-03-09,83,083098,Messina,Torregrotta,84.72,81.50
+2022-03-09,83,083108,Messina,Torrenova,84.93,84.15
+2022-03-09,83,083099,Messina,Tortorici,81.66,79.76
+2022-03-09,83,083100,Messina,Tripi,83.98,84.66
+2022-03-09,83,083101,Messina,Tusa,87.26,84.80
+2022-03-09,83,083102,Messina,Ucria,88.09,100.66
+2022-03-09,83,083103,Messina,Valdina,78.85,75.93
+2022-03-09,83,083104,Messina,Venetico,78.14,76.75
+2022-03-09,83,083105,Messina,Villafranca Tirrena,79.11,76.72
+2022-03-09,82,082001,Palermo,Alia,93.03,90.83
+2022-03-09,82,082002,Palermo,Alimena,88.07,84.63
+2022-03-09,82,082003,Palermo,Aliminusa,88.04,87.21
+2022-03-09,82,082004,Palermo,Altavilla Milicia,84.98,83.93
+2022-03-09,82,082005,Palermo,Altofonte,79.37,77.97
+2022-03-09,82,082006,Palermo,Bagheria,86.72,85.70
+2022-03-09,82,082007,Palermo,Balestrate,89.29,85.27
+2022-03-09,82,082008,Palermo,Baucina,87.09,83.35
+2022-03-09,82,082009,Palermo,Belmonte Mezzagno,87.78,84.89
+2022-03-09,82,082010,Palermo,Bisacquino,88.97,85.49
+2022-03-09,82,082082,Palermo,Blufi,84.08,75.28
+2022-03-09,82,082011,Palermo,Bolognetta,81.62,79.51
+2022-03-09,82,082012,Palermo,Bompietro,88.42,83.33
+2022-03-09,82,082013,Palermo,Borgetto,79.96,76.16
+2022-03-09,82,082014,Palermo,Caccamo,84.89,82.51
+2022-03-09,82,082015,Palermo,Caltavuturo,90.17,89.47
+2022-03-09,82,082016,Palermo,Campofelice di Fitalia,86.03,82.93
+2022-03-09,82,082017,Palermo,Campofelice di Roccella,87.67,86.80
+2022-03-09,82,082018,Palermo,Campofiorito,92.21,89.76
+2022-03-09,82,082019,Palermo,Camporeale,85.66,82.56
+2022-03-09,82,082020,Palermo,Capaci,83.16,81.63
+2022-03-09,82,082021,Palermo,Carini,82.51,80.36
+2022-03-09,82,082022,Palermo,Castelbuono,91.87,91.62
+2022-03-09,82,082023,Palermo,Casteldaccia,84.63,84.54
+2022-03-09,82,082024,Palermo,Castellana Sicula,91.47,86.70
+2022-03-09,82,082025,Palermo,Castronovo di Sicilia,90.57,88.10
+2022-03-09,82,082026,Palermo,Cefalà Diana,88.92,87.25
+2022-03-09,82,082027,Palermo,Cefalù,93.08,93.30
+2022-03-09,82,082028,Palermo,Cerda,86.27,84.87
+2022-03-09,82,082029,Palermo,Chiusa Sclafani,88.04,85.39
+2022-03-09,82,082030,Palermo,Ciminna,85.18,82.72
+2022-03-09,82,082031,Palermo,Cinisi,85.31,82.73
+2022-03-09,82,082032,Palermo,Collesano,89.41,91.53
+2022-03-09,82,082033,Palermo,Contessa Entellina,94.60,92.37
+2022-03-09,82,082034,Palermo,Corleone,89.82,85.80
+2022-03-09,82,082035,Palermo,Ficarazzi,82.49,81.14
+2022-03-09,82,082036,Palermo,Gangi,93.03,91.91
+2022-03-09,82,082037,Palermo,Geraci Siculo,94.66,90.95
+2022-03-09,82,082038,Palermo,Giardinello,85.86,82.33
+2022-03-09,82,082039,Palermo,Giuliana,95.20,92.65
+2022-03-09,82,082040,Palermo,Godrano,89.77,93.12
+2022-03-09,82,082041,Palermo,Gratteri,89.91,84.80
+2022-03-09,82,082042,Palermo,Isnello,93.20,99.63
+2022-03-09,82,082043,Palermo,Isola delle Femmine,81.41,80.37
+2022-03-09,82,082044,Palermo,Lascari,88.98,87.30
+2022-03-09,82,082045,Palermo,Lercara Friddi,91.87,89.48
+2022-03-09,82,082046,Palermo,Marineo,85.77,83.93
+2022-03-09,82,082047,Palermo,Mezzojuso,88.62,86.28
+2022-03-09,82,082048,Palermo,Misilmeri,84.39,82.30
+2022-03-09,82,082049,Palermo,Monreale,80.77,79.73
+2022-03-09,82,082050,Palermo,Montelepre,87.21,84.21
+2022-03-09,82,082051,Palermo,Montemaggiore Belsito,91.42,88.64
+2022-03-09,82,082052,Palermo,Palazzo Adriano,112.42,107.78
+2022-03-09,82,082053,Palermo,Palermo,92.73,91.14
+2022-03-09,82,082054,Palermo,Partinico,86.28,81.82
+2022-03-09,82,082055,Palermo,Petralia Soprana,85.35,79.99
+2022-03-09,82,082056,Palermo,Petralia Sottana,95.99,85.94
+2022-03-09,82,082057,Palermo,Piana degli Albanesi,83.97,83.61
+2022-03-09,82,082058,Palermo,Polizzi Generosa,88.18,85.63
+2022-03-09,82,082059,Palermo,Pollina,91.36,90.70
+2022-03-09,82,082060,Palermo,Prizzi,93.99,92.91
+2022-03-09,82,082061,Palermo,Roccamena,86.21,83.76
+2022-03-09,82,082062,Palermo,Roccapalumba,86.71,84.25
+2022-03-09,82,082063,Palermo,San Cipirello,79.76,77.41
+2022-03-09,82,082064,Palermo,San Giuseppe Jato,84.55,81.30
+2022-03-09,82,082065,Palermo,San Mauro Castelverde,85.24,82.40
+2022-03-09,82,082066,Palermo,Santa Cristina Gela,83.45,80.65
+2022-03-09,82,082067,Palermo,Santa Flavia,81.78,80.46
+2022-03-09,82,082068,Palermo,Sciara,87.16,85.47
+2022-03-09,82,082081,Palermo,Scillato,92.59,88.63
+2022-03-09,82,082069,Palermo,Sclafani Bagni,93.72,91.88
+2022-03-09,82,082070,Palermo,Termini Imerese,89.31,87.08
+2022-03-09,82,082071,Palermo,Terrasini,83.49,80.28
+2022-03-09,82,082072,Palermo,Torretta,80.93,79.17
+2022-03-09,82,082073,Palermo,Trabia,83.07,81.08
+2022-03-09,82,082074,Palermo,Trappeto,80.17,76.75
+2022-03-09,82,082075,Palermo,Ustica,96.66,95.03
+2022-03-09,82,082076,Palermo,Valledolmo,85.81,84.64
+2022-03-09,82,082077,Palermo,Ventimiglia di Sicilia,91.40,89.54
+2022-03-09,82,082078,Palermo,Vicari,90.82,88.57
+2022-03-09,82,082079,Palermo,Villabate,78.61,76.46
+2022-03-09,82,082080,Palermo,Villafrati,90.86,92.02
+2022-03-09,88,088001,Ragusa,Acate,79.36,78.82
+2022-03-09,88,088002,Ragusa,Chiaramonte Gulfi,83.65,82.82
+2022-03-09,88,088003,Ragusa,Comiso,84.69,83.25
+2022-03-09,88,088004,Ragusa,Giarratana,93.66,95.30
+2022-03-09,88,088005,Ragusa,Ispica,84.33,82.02
+2022-03-09,88,088006,Ragusa,Modica,90.71,88.63
+2022-03-09,88,088007,Ragusa,Monterosso Almo,90.35,89.22
+2022-03-09,88,088008,Ragusa,Pozzallo,86.20,84.64
+2022-03-09,88,088009,Ragusa,Ragusa,91.63,91.06
+2022-03-09,88,088010,Ragusa,Santa Croce Camerina,87.31,85.98
+2022-03-09,88,088011,Ragusa,Scicli,87.78,85.66
+2022-03-09,88,088012,Ragusa,Vittoria,85.89,83.75
+2022-03-09,89,089001,Siracusa,Augusta,84.36,80.55
+2022-03-09,89,089002,Siracusa,Avola,86.02,82.39
+2022-03-09,89,089003,Siracusa,Buccheri,84.77,81.57
+2022-03-09,89,089004,Siracusa,Buscemi,84.87,84.87
+2022-03-09,89,089005,Siracusa,Canicattini Bagni,83.92,80.10
+2022-03-09,89,089006,Siracusa,Carlentini,78.17,75.80
+2022-03-09,89,089007,Siracusa,Cassaro,84.17,85.01
+2022-03-09,89,089008,Siracusa,Ferla,84.23,80.13
+2022-03-09,89,089009,Siracusa,Floridia,82.10,79.28
+2022-03-09,89,089010,Siracusa,Francofonte,75.90,73.06
+2022-03-09,89,089011,Siracusa,Lentini,82.44,78.89
+2022-03-09,89,089012,Siracusa,Melilli,81.41,79.54
+2022-03-09,89,089013,Siracusa,Noto,79.49,76.68
+2022-03-09,89,089014,Siracusa,Pachino,89.24,90.22
+2022-03-09,89,089015,Siracusa,Palazzolo Acreide,89.75,86.81
+2022-03-09,89,089020,Siracusa,Portopalo di Capo Passero,83.92,85.13
+2022-03-09,89,089021,Siracusa,Priolo Gargallo,83.94,82.68
+2022-03-09,89,089016,Siracusa,Rosolini,86.45,83.38
+2022-03-09,89,089017,Siracusa,Siracusa,85.54,83.97
+2022-03-09,89,089018,Siracusa,Solarino,81.40,80.55
+2022-03-09,89,089019,Siracusa,Sortino,87.32,87.34
+2022-03-09,81,081001,Trapani,Alcamo,90.82,88.16
+2022-03-09,81,081002,Trapani,Buseto Palizzolo,92.53,89.74
+2022-03-09,81,081003,Trapani,Calatafimi-Segesta,92.57,90.62
+2022-03-09,81,081004,Trapani,Campobello di Mazara,83.20,81.37
+2022-03-09,81,081005,Trapani,Castellammare del Golfo,86.53,84.20
+2022-03-09,81,081006,Trapani,Castelvetrano,85.36,82.41
+2022-03-09,81,081007,Trapani,Custonaci,85.73,82.91
+2022-03-09,81,081008,Trapani,Erice,87.08,84.27
+2022-03-09,81,081009,Trapani,Favignana,91.02,89.24
+2022-03-09,81,081010,Trapani,Gibellina,91.32,88.46
+2022-03-09,81,081011,Trapani,Marsala,90.97,88.56
+2022-03-09,81,081012,Trapani,Mazara del Vallo,88.71,85.69
+2022-03-09,81,081013,Trapani,Paceco,86.18,83.29
+2022-03-09,81,081014,Trapani,Pantelleria,81.44,77.74
+2022-03-09,81,081015,Trapani,Partanna,90.13,88.76
+2022-03-09,81,081024,Trapani,Petrosino,75.23,74.27
+2022-03-09,81,081016,Trapani,Poggioreale,84.07,82.74
+2022-03-09,81,081017,Trapani,Salaparuta,86.95,85.34
+2022-03-09,81,081018,Trapani,Salemi,87.18,84.59
+2022-03-09,81,081020,Trapani,San Vito Lo Capo,83.86,80.49
+2022-03-09,81,081019,Trapani,Santa Ninfa,92.19,90.43
+2022-03-09,81,081021,Trapani,Trapani,85.72,82.72
+2022-03-09,81,081022,Trapani,Valderice,87.65,84.87
+2022-03-09,81,081023,Trapani,Vita,94.07,91.47
