@@ -2,8 +2,11 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import feedparser
 import os
+import io
 import pandas as pd
-from PyPDF2 import PdfFileReader
+import fitz
+from PIL import Image
+import pytesseract
 import re
 import requests
 
@@ -21,14 +24,19 @@ def parsePDF(link, url):
             pdf = url+link.get('href')
     return pdf
 
+report_n = 0
 def getDate(file):
     '''
     Estrae la data dalla prima pagina del PDF
     '''
-    reader = PdfFileReader(file)
-    page = reader.getPage(0)
-    content = page.extractText().replace('\n','')
-    match = re.search(r'\d+/\d+/\d+', content)
+    global report_n
+    reader = fitz.open(file)
+    page = reader.load_page(0)
+    pixmap = page.get_pixmap().tobytes()
+    image = Image.open(io.BytesIO(pixmap))
+    text = pytesseract.image_to_string(image)
+    match = re.search(r'\d+/\d+/\d+', text)
+    report_n = re.search('n° (\d+)', text).group(1)
     date = datetime.strptime(match.group(), '%d/%m/%Y').date()
 
     return date
@@ -74,7 +82,7 @@ def check(url):
                 print("Nuovo PDF!")
                 file = download(newfile)
                 date = getDate(file)
-                report = report.append({"n":len(report)+1, "data_report": date, "nome_file": file.rsplit('/', 1)[-1], "URL": newfile}, ignore_index=True)
+                report = report.append({"n":report_n, "data_report": date, "nome_file": file.rsplit('/', 1)[-1], "URL": newfile}, ignore_index=True)
                 report.to_csv(path + "report.csv", index=False)
             else:
                 print("PDF già presente in archivio")
