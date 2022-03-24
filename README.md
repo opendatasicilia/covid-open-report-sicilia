@@ -12,30 +12,59 @@ Gli stessi dati alimentano:
 ![covid-open-report-sicilia](https://user-images.githubusercontent.com/77018886/143773850-a0f79d60-77e3-4a8c-bb82-5553c85c0bcf.png)
 
 ## Bollettini pubblicati
-- [Report 06 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2006%20Ottobre%202021.pdf)
-- [Report 13 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2013%20Ottobre%202021.pdf)
-- [Report 20 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2020%20Ottobre%202021.pdf)
-- [Report 27 Ottobre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2027%20Ottobre%202021.pdf)
-- [Report 04 Novembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n%C3%82%C2%B0%205%20del%204%20novembre.pdf)
-- [Report 10 Novembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20settimanale%20n%C2%B06%20del%2010%20novembre%202021.pdf)
-- [Report 17 Novembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20Dasoe%207%20del%2017%20Novembre%202021.pdf)
-- [Report 24 Novembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n.8%20del%2024%20novembre%202021.pdf)
-- [Report 01 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20settimanale%201%20dicembre%20%282%29.pdf)
-- [Report 08 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%2008%20Dicembre%202021.pdf)
-- [Report 15 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%20n.11%20del%2015%20Dicembre%202021.pdf)
-- [Report 22 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2012%20del%2022%20Dicembre%202021.pdf)
-- [Report 29 Dicembre 2021.pdf](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2013%20del%2029%20dicembre%202021.pdf)
-- [Report 06 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/bollettino%2014%20finale.pdf)
-- [Report 12 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2012%20gennaio%202022.pdf)
-- [Report 19 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2016%20del%2019%20Gennaio%202022.pdf)
-- [Report 26 Gennaio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2017%20del%2026%20Gennaio%202022.pdf)
-- [Report 02 Febbraio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2018%20del%2002%20Febbraio%202022.pdf)
-- [Report 09 Febbraio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2019%20del%2009%20Febbraio%202022.pdf)
-- [Report 16 Febbraio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2020%20del%2016%20Febbraio%202022.pdf)
-- [Report 23 Febbraio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2021%20del%2023%20Febbraio%202022.pdf)
-- [Report 09 Marzo 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2023%20del%2009%20Marzo%202022.pdf)
-- [Report 16 Marzo 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2024%20del%2016%20Marzo%202022.pdf)
-- [Report 23 Marzo 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2025%20del%2023%20Marzo%202022.pdf)
+<details>
+   <summary>Lista dei bollettini pubblicati</summary>
+   <br/>
+   <ul>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2006%20Ottobre%202021.pdf" target="_blank">Report 06 Ottobre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2013%20Ottobre%202021.pdf"
+         target="_blank">Report 13 Ottobre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2020%20Ottobre%202021.pdf"
+         target="_blank">Report 20 Ottobre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-10/Report%20Completo%2027%20Ottobre%202021.pdf"
+         target="_blank">Report 27 Ottobre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n%C3%82%C2%B0%205%20del%204%20novembre.pdf"
+         target="_blank">Report 04 Novembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20settimanale%20n%C2%B06%20del%2010%20novembre%202021.pdf"
+         target="_blank">Report 10 Novembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20Dasoe%207%20del%2017%20Novembre%202021.pdf"
+         target="_blank">Report 17 Novembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-11/Bollettino%20n.8%20del%2024%20novembre%202021.pdf"
+         target="_blank">Report 24 Novembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20settimanale%201%20dicembre%20%282%29.pdf"
+         target="_blank">Report 01 Dicembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%2008%20Dicembre%202021.pdf"
+         target="_blank">Report 08 Dicembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%20n.11%20del%2015%20Dicembre%202021.pdf"
+         target="_blank">Report 15 Dicembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2012%20del%2022%20Dicembre%202021.pdf"
+         target="_blank">Report 22 Dicembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2013%20del%2029%20dicembre%202021.pdf"
+         target="_blank">Report 29 Dicembre 2021.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-01/bollettino%2014%20finale.pdf"
+         target="_blank">Report 06 Gennaio 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2012%20gennaio%202022.pdf"
+         target="_blank">Report 12 Gennaio 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2016%20del%2019%20Gennaio%202022.pdf"
+         target="_blank">Report 19 Gennaio 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-01/Bollettino%2017%20del%2026%20Gennaio%202022.pdf"
+         target="_blank">Report 26 Gennaio 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2018%20del%2002%20Febbraio%202022.pdf"
+         target="_blank">Report 02 Febbraio 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2019%20del%2009%20Febbraio%202022.pdf"
+         target="_blank">Report 09 Febbraio 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2020%20del%2016%20Febbraio%202022.pdf"
+         target="_blank">Report 16 Febbraio 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2021%20del%2023%20Febbraio%202022.pdf"
+         target="_blank">Report 23 Febbraio 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2023%20del%2009%20Marzo%202022.pdf"
+         target="_blank">Report 09 Marzo 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2024%20del%2016%20Marzo%202022.pdf"
+         target="_blank">Report 16 Marzo 2022.pdf</li>
+      <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2025%20del%2023%20Marzo%202022.pdf"
+         target="_blank">Report 23 Marzo 2022.pdf</li>
+   </ul>
+</details>
 
 ## Struttura repository
 ```
