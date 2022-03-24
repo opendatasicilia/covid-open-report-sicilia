@@ -35,6 +35,7 @@ Gli stessi dati alimentano:
 - [Report 23 Febbraio 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-02/Bollettino%2021%20del%2023%20Febbraio%202022.pdf)
 - [Report 09 Marzo 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2023%20del%2009%20Marzo%202022.pdf)
 - [Report 16 Marzo 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2024%20del%2016%20Marzo%202022.pdf)
+- [Report 23 Marzo 2022.pdf](https://www.regione.sicilia.it/sites/default/files/2022-03/Bollettino%2025%20del%2023%20Marzo%202022.pdf)
 
 ## Struttura repository
 ```
