@@ -195,24 +195,21 @@ def addToReadme():
     '''
     Aggiunge ultima riga del report.csv al file README.md
     '''
-    mesi = {"01":"Gennaio","02":"Febbraio","03":"Marzo","04":"Aprile","05":"Maggio","06":"Giugno","07":"Luglio","08":"Agosto","09":"Settembre","10":"Ottobre","11":"Novembre","12":"Dicembre"}
+    mesi = {"01": "Gennaio", "02": "Febbraio", "03": "Marzo", "04": "Aprile", "05": "Maggio", "06": "Giugno",
+            "07": "Luglio", "08": "Agosto", "09": "Settembre", "10": "Ottobre", "11": "Novembre", "12": "Dicembre"}
     data = date.split('-')
     data = data[2] + " " + mesi[data[1]] + " " + data[0]
-
-    title_index = ""
     with open("./README.md", "r+", encoding="utf-8") as f:
         lines = f.readlines()
+        lindex = []
         for index, line in enumerate(lines):
-            if "Bollettini pubblicati" in line:
-                title_index = index
-        insert_index = title_index + int(latest['n'])
-        try:
-            lastDay = lines[insert_index].split(' ')[2]
-        except:
-            lastDay = lines[insert_index-1].split(' ')[2]
+            if '.pdf">Report' in line:
+                lindex.append(index)
+        insert_index = (lindex[-1]) + 1
+        lastDay = lines[insert_index - 1].rpartition('Report ')[2].rpartition(' ')[0].rpartition(' ')[0]
         newDay = date.split('-')[2]
         if lastDay != newDay:
-            insert_content = "- [Report " + data + ".pdf](" + latest['URL'] + ")\n"
+            insert_content = '<li><a href="' + latest['URL'] + '">Report ' + data + '.pdf</a></li>\n'
             lines.insert(insert_index, insert_content)
             f.seek(0)
             f.writelines(lines)
