@@ -1,8 +1,5 @@
-import io
 import fitz
 import pandas as pd
-from PIL import Image
-import pytesseract
 
 path = '.'
 comuni = pd.DataFrame(pd.read_csv(
@@ -119,26 +116,41 @@ def getIncidenza(file, pages):
 
 def getVax(file, pages):
     print('Leggo tabella Vaccini...attendi...')
-    pdf = fitz.open(file)
-    config = r'--oem 3 --psm 6'
-    zoom = 3
-    mat = fitz.Matrix(zoom, zoom)
-    textes = []
-    for index in range(pages[0], pages[-1]):
-        page = pdf.load_page(index)
-        pixmap = page.get_pixmap(alpha=True, matrix=mat).tobytes()
-        image = Image.open(io.BytesIO(pixmap))
-        image = image.resize((image.width*2, image.height*2))
-        text = pytesseract.image_to_string(
-            image, lang="ita", config=config)
-        raw_string = text.rpartition('completato')[
-            2].replace('\x0c', '').split('\n')
-        comune = [i for i in raw_string if i]
-        print(comune)
 
-    print(textes)
+    with open('vax.txt') as inputFile:
+        lines = inputFile.read().splitlines()
+        it = iter(lines)
+        data = list(zip(it, it, it, it, it, it, it))
+
+        vax = pd.DataFrame(
+            data, columns=['comune', '51', '52', '121', '122', 'prima_dose', 'seconda_dose'])
+        vax = vax[['comune', 'prima_dose', 'seconda_dose']]
+        vax['prima_dose'] = vax['prima_dose'].str.replace(
+            ',', '.').str.rstrip('%')
+        vax['seconda_dose'] = vax['seconda_dose'].str.replace(
+            ',', '.').str.rstrip('%')
+        out = pd.merge(vax, comuni, on='comune', how='inner')
+        out = out[['cod_prov', 'pro_com_t', 'provincia',
+                   'comune', 'prima_dose', 'seconda_dose']]
+        out.insert(0, 'data', date)
+        assert (len(out) == 390), "Errore: Sono presenti meno comuni del previsto."
+        print(out)
+
+        lastUpdate = open(
+            path+'/dati/vaccini/vaccini.csv').read().rsplit('\n', 2)[1].split(',')[0]
+        if date != lastUpdate:
+            print('Esporto CSV...')
+            out.to_csv(path+'/dati/vaccini/vaccini-' +
+                       date.replace("-", "")+'.csv', index=None, header=True)
+            out.to_csv(path+'/dati/vaccini/vaccini-latest.csv',
+                       index=None, header=True)
+            out.to_csv(path+'/dati/vaccini/vaccini.csv',
+                       mode='a', index=None, header=False)
+        csv = path+'/dati/vaccini/vaccini-'+date.replace("-", "")+'.csv'
+
+        return csv
 
 
 pages = getPages('./download/'+latest['nome_file'])
 #getIncidenza('./download/'+latest['nome_file'], pages['incidenza'])
-getVax('./download/'+latest['nome_file'], pages['vaccini'])
+#getVax('./download/'+latest['nome_file'], pages['vaccini'])
