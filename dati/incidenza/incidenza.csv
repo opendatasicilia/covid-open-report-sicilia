@@ -9749,3 +9749,393 @@ data,cod_prov,pro_com_t,provincia,comune,incidenza,casi
 2022-03-30,81,081021,Trapani,Trapani,648.54,424
 2022-03-30,81,081022,Trapani,Valderice,405.63,47
 2022-03-30,81,081023,Trapani,Vita,2913.69,53
+2022-04-06,84,084001,Agrigento,Agrigento,1127.58,630
+2022-04-06,84,084002,Agrigento,Alessandria della Rocca,272.69,7
+2022-04-06,84,084003,Agrigento,Aragona,1237.07,110
+2022-04-06,84,084004,Agrigento,Bivona,181.93,6
+2022-04-06,84,084005,Agrigento,Burgio,987.36,25
+2022-04-06,84,084006,Agrigento,Calamonaci,581.88,7
+2022-04-06,84,084007,Agrigento,Caltabellotta,453.17,15
+2022-04-06,84,084008,Agrigento,Camastra,628.27,12
+2022-04-06,84,084009,Agrigento,Cammarata,623.95,37
+2022-04-06,84,084010,Agrigento,Campobello di Licata,691.14,64
+2022-04-06,84,084011,Agrigento,Canicattì,685.13,236
+2022-04-06,84,084012,Agrigento,Casteltermini,789.51,59
+2022-04-06,84,084013,Agrigento,Castrofilippo,869.24,23
+2022-04-06,84,084014,Agrigento,Cattolica Eraclea,1218.79,41
+2022-04-06,84,084015,Agrigento,Cianciana,661.00,21
+2022-04-06,84,084016,Agrigento,Comitini,789.18,7
+2022-04-06,84,084017,Agrigento,Favara,1263.32,402
+2022-04-06,84,084018,Agrigento,Grotte,999.43,53
+2022-04-06,84,084019,Agrigento,Joppolo Giancaxio,907.44,10
+2022-04-06,84,084020,Agrigento,Lampedusa e Linosa,426.07,27
+2022-04-06,84,084021,Agrigento,Licata,778.75,270
+2022-04-06,84,084022,Agrigento,Lucca Sicula,1849.71,32
+2022-04-06,84,084023,Agrigento,Menfi,753.47,89
+2022-04-06,84,084024,Agrigento,Montallegro,1299.79,31
+2022-04-06,84,084025,Agrigento,Montevago,621.80,17
+2022-04-06,84,084026,Agrigento,Naro,590.72,42
+2022-04-06,84,084027,Agrigento,Palma di Montechiaro,867.66,186
+2022-04-06,84,084028,Agrigento,Porto Empedocle,870.57,136
+2022-04-06,84,084029,Agrigento,Racalmuto,762.86,58
+2022-04-06,84,084030,Agrigento,Raffadali,1011.42,124
+2022-04-06,84,084031,Agrigento,Ravanusa,586.34,62
+2022-04-06,84,084032,Agrigento,Realmonte,1370.18,60
+2022-04-06,84,084033,Agrigento,Ribera,492.86,89
+2022-04-06,84,084034,Agrigento,Sambuca di Sicilia,328.17,18
+2022-04-06,84,084035,Agrigento,San Biagio Platani,916.50,27
+2022-04-06,84,084036,Agrigento,San Giovanni Gemini,500.66,38
+2022-04-06,84,084039,Agrigento,Sant'Angelo Muxaro,1266.89,15
+2022-04-06,84,084037,Agrigento,Santa Elisabetta,1292.71,28
+2022-04-06,84,084038,Agrigento,Santa Margherita di Belice,1212.32,74
+2022-04-06,84,084040,Agrigento,Santo Stefano Quisquina,379.51,16
+2022-04-06,84,084041,Agrigento,Sciacca,1131.21,444
+2022-04-06,84,084042,Agrigento,Siculiana,1173.09,49
+2022-04-06,84,084043,Agrigento,Villafranca Sicula,1399.12,19
+2022-04-06,85,085001,Caltanissetta,Acquaviva Platani,1683.50,15
+2022-04-06,85,085002,Caltanissetta,Bompensiere,191.57,1
+2022-04-06,85,085003,Caltanissetta,Butera,1346.24,57
+2022-04-06,85,085004,Caltanissetta,Caltanissetta,955.50,572
+2022-04-06,85,085005,Caltanissetta,Campofranco,833.94,23
+2022-04-06,85,085006,Caltanissetta,Delia,1414.86,56
+2022-04-06,85,085007,Caltanissetta,Gela,1040.13,754
+2022-04-06,85,085008,Caltanissetta,Marianopoli,119.83,2
+2022-04-06,85,085009,Caltanissetta,Mazzarino,268.31,30
+2022-04-06,85,085010,Caltanissetta,Milena,360.10,10
+2022-04-06,85,085011,Caltanissetta,Montedoro,423.13,6
+2022-04-06,85,085012,Caltanissetta,Mussomeli,894.72,90
+2022-04-06,85,085013,Caltanissetta,Niscemi,536.14,135
+2022-04-06,85,085014,Caltanissetta,Resuttano,663.35,12
+2022-04-06,85,085015,Caltanissetta,Riesi,504.81,54
+2022-04-06,85,085016,Caltanissetta,San Cataldo,1265.58,269
+2022-04-06,85,085017,Caltanissetta,Santa Caterina Villarmosa,783.99,38
+2022-04-06,85,085018,Caltanissetta,Serradifalco,1267.83,72
+2022-04-06,85,085019,Caltanissetta,Sommatino,940.34,61
+2022-04-06,85,085020,Caltanissetta,Sutera,972.45,12
+2022-04-06,85,085021,Caltanissetta,Vallelunga Pratameno,218.89,7
+2022-04-06,85,085022,Caltanissetta,Villalba,743.24,11
+2022-04-06,87,087001,Catania,Aci Bonaccorsi,572.25,20
+2022-04-06,87,087002,Catania,Aci Castello,605.99,109
+2022-04-06,87,087003,Catania,Aci Catena,387.07,109
+2022-04-06,87,087005,Catania,Aci Sant'Antonio,498.13,89
+2022-04-06,87,087004,Catania,Acireale,355.54,180
+2022-04-06,87,087006,Catania,Adrano,165.07,56
+2022-04-06,87,087007,Catania,Belpasso,649.82,179
+2022-04-06,87,087008,Catania,Biancavilla,247.97,57
+2022-04-06,87,087009,Catania,Bronte,480.17,88
+2022-04-06,87,087010,Catania,Calatabiano,175.34,9
+2022-04-06,87,087011,Catania,Caltagirone,460.80,167
+2022-04-06,87,087012,Catania,Camporotondo Etneo,699.16,36
+2022-04-06,87,087013,Catania,Castel di Iudica,620.40,27
+2022-04-06,87,087014,Catania,Castiglione di Sicilia,235.77,7
+2022-04-06,87,087015,Catania,Catania,537.36,1614
+2022-04-06,87,087016,Catania,Fiumefreddo di Sicilia,451.24,41
+2022-04-06,87,087017,Catania,Giarre,894.85,237
+2022-04-06,87,087018,Catania,Grammichele,724.46,91
+2022-04-06,87,087019,Catania,Gravina di Catania,623.23,156
+2022-04-06,87,087020,Catania,Licodia Eubea,357.91,10
+2022-04-06,87,087021,Catania,Linguaglossa,117.69,6
+2022-04-06,87,087022,Catania,Maletto,359.81,13
+2022-04-06,87,087057,Catania,Maniace,267.45,10
+2022-04-06,87,087023,Catania,Mascali,624.47,88
+2022-04-06,87,087024,Catania,Mascalucia,657.65,208
+2022-04-06,87,087056,Catania,Mazzarrone,586.59,23
+2022-04-06,87,087025,Catania,Militello in Val di Catania,309.19,21
+2022-04-06,87,087026,Catania,Milo,578.03,6
+2022-04-06,87,087027,Catania,Mineo,741.33,37
+2022-04-06,87,087028,Catania,Mirabella Imbaccari,607.19,26
+2022-04-06,87,087029,Catania,Misterbianco,504.67,247
+2022-04-06,87,087030,Catania,Motta Sant'Anastasia,542.25,65
+2022-04-06,87,087031,Catania,Nicolosi,518.00,39
+2022-04-06,87,087032,Catania,Palagonia,632.71,100
+2022-04-06,87,087033,Catania,Paternò,374.83,171
+2022-04-06,87,087034,Catania,Pedara,509.72,75
+2022-04-06,87,087035,Catania,Piedimonte Etneo,611.15,24
+2022-04-06,87,087036,Catania,Raddusa,626.09,18
+2022-04-06,87,087058,Catania,Ragalna,97.97,4
+2022-04-06,87,087037,Catania,Ramacca,452.92,47
+2022-04-06,87,087038,Catania,Randazzo,435.88,45
+2022-04-06,87,087039,Catania,Riposto,694.39,97
+2022-04-06,87,087040,Catania,San Cono,287.95,7
+2022-04-06,87,087041,Catania,San Giovanni la Punta,634.21,148
+2022-04-06,87,087042,Catania,San Gregorio di Catania,811.24,93
+2022-04-06,87,087043,Catania,San Michele di Ganzaria,472.18,14
+2022-04-06,87,087044,Catania,San Pietro Clarenza,517.05,42
+2022-04-06,87,087045,Catania,Sant'Agata li Battiati,740.50,69
+2022-04-06,87,087046,Catania,Sant'Alfio,525.62,8
+2022-04-06,87,087047,Catania,Santa Maria di Licodia,256.93,19
+2022-04-06,87,087048,Catania,Santa Venerina,578.10,48
+2022-04-06,87,087049,Catania,Scordia,632.06,103
+2022-04-06,87,087050,Catania,Trecastagni,406.39,45
+2022-04-06,87,087051,Catania,Tremestieri Etneo,623.37,124
+2022-04-06,87,087052,Catania,Valverde,578.78,45
+2022-04-06,87,087053,Catania,Viagrande,401.61,35
+2022-04-06,87,087054,Catania,Vizzini,1160.78,67
+2022-04-06,87,087055,Catania,Zafferana Etnea,624.87,58
+2022-04-06,86,086001,Enna,Agira,799.38,62
+2022-04-06,86,086002,Enna,Aidone,296.20,13
+2022-04-06,86,086003,Enna,Assoro,1737.53,85
+2022-04-06,86,086004,Enna,Barrafranca,588.58,71
+2022-04-06,86,086005,Enna,Calascibetta,815.54,34
+2022-04-06,86,086006,Enna,Catenanuova,199.16,9
+2022-04-06,86,086007,Enna,Centuripe,444.70,23
+2022-04-06,86,086008,Enna,Cerami,806.89,15
+2022-04-06,86,086009,Enna,Enna,1259.75,328
+2022-04-06,86,086010,Enna,Gagliano Castelferrato,415.68,14
+2022-04-06,86,086011,Enna,Leonforte,1207.98,152
+2022-04-06,86,086012,Enna,Nicosia,293.50,38
+2022-04-06,86,086013,Enna,Nissoria,1930.50,55
+2022-04-06,86,086014,Enna,Piazza Armerina,775.94,161
+2022-04-06,86,086015,Enna,Pietraperzia,619.29,40
+2022-04-06,86,086016,Enna,Regalbuto,585.65,40
+2022-04-06,86,086017,Enna,Sperlinga,289.44,2
+2022-04-06,86,086018,Enna,Troina,597.77,52
+2022-04-06,86,086019,Enna,Valguarnera Caropepe,502.58,36
+2022-04-06,86,086020,Enna,Villarosa,1401.25,63
+2022-04-06,83,083107,Messina,Acquedolci,603.73,33
+2022-04-06,83,083001,Messina,Alcara li Fusi,680.66,12
+2022-04-06,83,083002,Messina,Alì,569.80,4
+2022-04-06,83,083003,Messina,Alì Terme,504.63,12
+2022-04-06,83,083004,Messina,Antillo,473.93,4
+2022-04-06,83,083005,Messina,Barcellona Pozzo di Gotto,1682.31,672
+2022-04-06,83,083006,Messina,Basicò,1065.72,6
+2022-04-06,83,083007,Messina,Brolo,2124.70,122
+2022-04-06,83,083008,Messina,Capizzi,137.08,4
+2022-04-06,83,083009,Messina,Capo d'Orlando,675.16,88
+2022-04-06,83,083010,Messina,Capri Leone,1374.33,59
+2022-04-06,83,083011,Messina,Caronia,774.94,24
+2022-04-06,83,083012,Messina,Casalvecchio Siculo,1201.60,9
+2022-04-06,83,083013,Messina,Castel di Lucio,248.76,3
+2022-04-06,83,083014,Messina,Castell'Umberto,522.28,15
+2022-04-06,83,083015,Messina,Castelmola,560.75,6
+2022-04-06,83,083016,Messina,Castroreale,1463.41,33
+2022-04-06,83,083017,Messina,Cesarò,497.29,11
+2022-04-06,83,083018,Messina,Condrò,3211.99,15
+2022-04-06,83,083019,Messina,Falcone,1109.88,30
+2022-04-06,83,083020,Messina,Ficarra,1652.89,22
+2022-04-06,83,083021,Messina,Fiumedinisi,1777.43,23
+2022-04-06,83,083022,Messina,Floresta,0.00,0
+2022-04-06,83,083023,Messina,Fondachelli-Fantina,1984.13,20
+2022-04-06,83,083024,Messina,Forza d'Agrò,1132.50,10
+2022-04-06,83,083025,Messina,Francavilla di Sicilia,275.03,10
+2022-04-06,83,083026,Messina,Frazzanò,166.39,1
+2022-04-06,83,083027,Messina,Furci Siculo,1684.87,54
+2022-04-06,83,083028,Messina,Furnari,1039.17,39
+2022-04-06,83,083029,Messina,Gaggi,592.30,18
+2022-04-06,83,083030,Messina,Galati Mamertino,381.19,9
+2022-04-06,83,083031,Messina,Gallodoro,574.71,2
+2022-04-06,83,083032,Messina,Giardini-Naxos,455.25,41
+2022-04-06,83,083033,Messina,Gioiosa Marea,1687.14,114
+2022-04-06,83,083034,Messina,Graniti,561.40,8
+2022-04-06,83,083035,Messina,Gualtieri Sicaminò,1609.91,26
+2022-04-06,83,083036,Messina,Itala,339.67,5
+2022-04-06,83,083037,Messina,Leni,290.28,2
+2022-04-06,83,083038,Messina,Letojanni,1305.77,36
+2022-04-06,83,083039,Messina,Librizzi,1765.45,28
+2022-04-06,83,083040,Messina,Limina,408.16,3
+2022-04-06,83,083041,Messina,Lipari,644.06,79
+2022-04-06,83,083042,Messina,Longi,296.74,4
+2022-04-06,83,083043,Messina,Malfa,203.46,2
+2022-04-06,83,083044,Messina,Malvagna,0.00,0
+2022-04-06,83,083045,Messina,Mandanici,179.53,1
+2022-04-06,83,083046,Messina,Mazzarrà Sant'Andrea,640.57,9
+2022-04-06,83,083047,Messina,Merì,1115.88,26
+2022-04-06,83,083048,Messina,Messina,1281.43,2849
+2022-04-06,83,083049,Messina,Milazzo,1574.57,479
+2022-04-06,83,083050,Messina,Militello Rosmarino,751.88,9
+2022-04-06,83,083051,Messina,Mirto,328.59,3
+2022-04-06,83,083052,Messina,Mistretta,405.95,18
+2022-04-06,83,083053,Messina,Moio Alcantara,0.00,0
+2022-04-06,83,083054,Messina,Monforte San Giorgio,1326.05,34
+2022-04-06,83,083055,Messina,Mongiuffi Melia,181.82,1
+2022-04-06,83,083056,Messina,Montagnareale,1262.27,18
+2022-04-06,83,083057,Messina,Montalbano Elicona,2198.90,44
+2022-04-06,83,083058,Messina,Motta Camastra,0.00,0
+2022-04-06,83,083059,Messina,Motta d'Affermo,149.25,1
+2022-04-06,83,083060,Messina,Naso,766.39,27
+2022-04-06,83,083061,Messina,Nizza di Sicilia,767.48,27
+2022-04-06,83,083062,Messina,Novara di Sicilia,1344.54,16
+2022-04-06,83,083063,Messina,Oliveri,589.39,12
+2022-04-06,83,083064,Messina,Pace del Mela,1865.92,113
+2022-04-06,83,083065,Messina,Pagliara,1732.00,19
+2022-04-06,83,083066,Messina,Patti,1947.14,249
+2022-04-06,83,083067,Messina,Pettineo,725.81,9
+2022-04-06,83,083068,Messina,Piraino,921.54,35
+2022-04-06,83,083069,Messina,Raccuja,1668.52,15
+2022-04-06,83,083070,Messina,Reitano,1091.41,8
+2022-04-06,83,083071,Messina,Roccafiorita,1098.90,2
+2022-04-06,83,083072,Messina,Roccalumera,1163.67,46
+2022-04-06,83,083073,Messina,Roccavaldina,794.44,8
+2022-04-06,83,083074,Messina,Roccella Valdemone,857.63,5
+2022-04-06,83,083075,Messina,Rodì Milici,919.78,18
+2022-04-06,83,083076,Messina,Rometta,1573.21,101
+2022-04-06,83,083077,Messina,San Filippo del Mela,1167.95,79
+2022-04-06,83,083078,Messina,San Fratello,746.27,25
+2022-04-06,83,083079,Messina,San Marco d'Alunzio,1475.41,27
+2022-04-06,83,083080,Messina,San Pier Niceto,1200.15,31
+2022-04-06,83,083081,Messina,San Piero Patti,1320.26,35
+2022-04-06,83,083082,Messina,San Salvatore di Fitalia,169.78,2
+2022-04-06,83,083090,Messina,San Teodoro,1269.84,16
+2022-04-06,83,083084,Messina,Sant'Agata di Militello,1317.87,158
+2022-04-06,83,083085,Messina,Sant'Alessio Siculo,1142.47,17
+2022-04-06,83,083088,Messina,Sant'Angelo di Brolo,2264.69,64
+2022-04-06,83,083083,Messina,Santa Domenica Vittoria,229.62,2
+2022-04-06,83,083086,Messina,Santa Lucia del Mela,1863.91,83
+2022-04-06,83,083087,Messina,Santa Marina Salina,117.65,1
+2022-04-06,83,083089,Messina,Santa Teresa di Riva,841.33,78
+2022-04-06,83,083091,Messina,Santo Stefano di Camastra,1200.18,53
+2022-04-06,83,083092,Messina,Saponara,1537.63,57
+2022-04-06,83,083093,Messina,Savoca,963.86,16
+2022-04-06,83,083094,Messina,Scaletta Zanclea,1044.39,20
+2022-04-06,83,083095,Messina,Sinagra,1192.84,30
+2022-04-06,83,083096,Messina,Spadafora,1616.68,76
+2022-04-06,83,083097,Messina,Taormina,600.46,63
+2022-04-06,83,083106,Messina,Terme Vigliatore,1646.89,118
+2022-04-06,83,083098,Messina,Torregrotta,1409.03,102
+2022-04-06,83,083108,Messina,Torrenova,878.38,39
+2022-04-06,83,083099,Messina,Tortorici,677.05,40
+2022-04-06,83,083100,Messina,Tripi,2470.74,19
+2022-04-06,83,083101,Messina,Tusa,1764.93,47
+2022-04-06,83,083102,Messina,Ucria,2872.34,27
+2022-04-06,83,083103,Messina,Valdina,1175.55,15
+2022-04-06,83,083104,Messina,Venetico,1283.37,50
+2022-04-06,83,083105,Messina,Villafranca Tirrena,1586.14,130
+2022-04-06,82,082001,Palermo,Alia,1598.11,54
+2022-04-06,82,082002,Palermo,Alimena,221.24,4
+2022-04-06,82,082003,Palermo,Aliminusa,542.01,6
+2022-04-06,82,082004,Palermo,Altavilla Milicia,830.62,69
+2022-04-06,82,082005,Palermo,Altofonte,852.88,84
+2022-04-06,82,082006,Palermo,Bagheria,520.51,276
+2022-04-06,82,082007,Palermo,Balestrate,405.84,25
+2022-04-06,82,082008,Palermo,Baucina,325.73,6
+2022-04-06,82,082009,Palermo,Belmonte Mezzagno,788.63,86
+2022-04-06,82,082010,Palermo,Bisacquino,428.27,18
+2022-04-06,82,082082,Palermo,Blufi,2502.72,23
+2022-04-06,82,082011,Palermo,Bolognetta,494.80,20
+2022-04-06,82,082012,Palermo,Bompietro,640.00,8
+2022-04-06,82,082013,Palermo,Borgetto,636.58,45
+2022-04-06,82,082014,Palermo,Caccamo,715.47,56
+2022-04-06,82,082015,Palermo,Caltavuturo,218.40,8
+2022-04-06,82,082016,Palermo,Campofelice di Fitalia,422.83,2
+2022-04-06,82,082017,Palermo,Campofelice di Roccella,1011.85,76
+2022-04-06,82,082018,Palermo,Campofiorito,508.04,6
+2022-04-06,82,082019,Palermo,Camporeale,495.21,15
+2022-04-06,82,082020,Palermo,Capaci,682.44,77
+2022-04-06,82,082021,Palermo,Carini,851.45,327
+2022-04-06,82,082022,Palermo,Castelbuono,738.86,61
+2022-04-06,82,082023,Palermo,Casteldaccia,690.49,80
+2022-04-06,82,082024,Palermo,Castellana Sicula,902.93,28
+2022-04-06,82,082025,Palermo,Castronovo di Sicilia,694.44,20
+2022-04-06,82,082026,Palermo,Cefalà Diana,0.00,0
+2022-04-06,82,082027,Palermo,Cefalù,799.88,111
+2022-04-06,82,082028,Palermo,Cerda,461.94,23
+2022-04-06,82,082029,Palermo,Chiusa Sclafani,344.70,9
+2022-04-06,82,082030,Palermo,Ciminna,631.28,22
+2022-04-06,82,082031,Palermo,Cinisi,642.60,76
+2022-04-06,82,082032,Palermo,Collesano,1193.00,45
+2022-04-06,82,082033,Palermo,Contessa Entellina,716.15,11
+2022-04-06,82,082034,Palermo,Corleone,661.63,70
+2022-04-06,82,082035,Palermo,Ficarazzi,634.40,81
+2022-04-06,82,082036,Palermo,Gangi,668.26,42
+2022-04-06,82,082037,Palermo,Geraci Siculo,678.73,12
+2022-04-06,82,082038,Palermo,Giardinello,1499.78,34
+2022-04-06,82,082039,Palermo,Giuliana,520.23,9
+2022-04-06,82,082040,Palermo,Godrano,643.97,7
+2022-04-06,82,082041,Palermo,Gratteri,450.96,4
+2022-04-06,82,082042,Palermo,Isnello,1535.09,21
+2022-04-06,82,082043,Palermo,Isola delle Femmine,711.64,50
+2022-04-06,82,082044,Palermo,Lascari,464.99,17
+2022-04-06,82,082045,Palermo,Lercara Friddi,1041.01,66
+2022-04-06,82,082046,Palermo,Marineo,715.76,45
+2022-04-06,82,082047,Palermo,Mezzojuso,995.21,27
+2022-04-06,82,082048,Palermo,Misilmeri,986.39,282
+2022-04-06,82,082049,Palermo,Monreale,742.95,284
+2022-04-06,82,082050,Palermo,Montelepre,633.13,37
+2022-04-06,82,082051,Palermo,Montemaggiore Belsito,396.17,12
+2022-04-06,82,082052,Palermo,Palazzo Adriano,858.83,16
+2022-04-06,82,082053,Palermo,Palermo,932.61,5949
+2022-04-06,82,082054,Palermo,Partinico,966.66,296
+2022-04-06,82,082055,Palermo,Petralia Soprana,722.26,22
+2022-04-06,82,082056,Palermo,Petralia Sottana,1277.45,32
+2022-04-06,82,082057,Palermo,Piana degli Albanesi,759.99,43
+2022-04-06,82,082058,Palermo,Polizzi Generosa,563.66,17
+2022-04-06,82,082059,Palermo,Pollina,1379.55,39
+2022-04-06,82,082060,Palermo,Prizzi,253.34,11
+2022-04-06,82,082061,Palermo,Roccamena,576.37,8
+2022-04-06,82,082062,Palermo,Roccapalumba,1174.93,27
+2022-04-06,82,082063,Palermo,San Cipirello,455.45,23
+2022-04-06,82,082064,Palermo,San Giuseppe Jato,402.05,33
+2022-04-06,82,082065,Palermo,San Mauro Castelverde,1272.08,18
+2022-04-06,82,082066,Palermo,Santa Cristina Gela,506.07,5
+2022-04-06,82,082067,Palermo,Santa Flavia,615.87,67
+2022-04-06,82,082068,Palermo,Sciara,548.80,14
+2022-04-06,82,082081,Palermo,Scillato,1594.90,10
+2022-04-06,82,082069,Palermo,Sclafani Bagni,0.00,0
+2022-04-06,82,082070,Palermo,Termini Imerese,810.39,204
+2022-04-06,82,082071,Palermo,Terrasini,552.75,69
+2022-04-06,82,082072,Palermo,Torretta,766.83,32
+2022-04-06,82,082073,Palermo,Trabia,1040.96,107
+2022-04-06,82,082074,Palermo,Trappeto,502.18,15
+2022-04-06,82,082075,Palermo,Ustica,157.36,2
+2022-04-06,82,082076,Palermo,Valledolmo,152.11,5
+2022-04-06,82,082077,Palermo,Ventimiglia di Sicilia,1041.10,19
+2022-04-06,82,082078,Palermo,Vicari,1006.44,25
+2022-04-06,82,082079,Palermo,Villabate,649.02,127
+2022-04-06,82,082080,Palermo,Villafrati,572.88,18
+2022-04-06,88,088001,Ragusa,Acate,301.32,32
+2022-04-06,88,088002,Ragusa,Chiaramonte Gulfi,731.77,58
+2022-04-06,88,088003,Ragusa,Comiso,770.57,231
+2022-04-06,88,088004,Ragusa,Giarratana,424.03,12
+2022-04-06,88,088005,Ragusa,Ispica,1264.96,204
+2022-04-06,88,088006,Ragusa,Modica,1221.66,652
+2022-04-06,88,088007,Ragusa,Monterosso Almo,494.87,14
+2022-04-06,88,088008,Ragusa,Pozzallo,982.05,186
+2022-04-06,88,088009,Ragusa,Ragusa,1273.10,924
+2022-04-06,88,088010,Ragusa,Santa Croce Camerina,470.57,51
+2022-04-06,88,088011,Ragusa,Scicli,835.14,224
+2022-04-06,88,088012,Ragusa,Vittoria,470.58,292
+2022-04-06,89,089001,Siracusa,Augusta,906.56,316
+2022-04-06,89,089002,Siracusa,Avola,622.89,190
+2022-04-06,89,089003,Siracusa,Buccheri,449.94,8
+2022-04-06,89,089004,Siracusa,Buscemi,613.50,6
+2022-04-06,89,089005,Siracusa,Canicattini Bagni,632.63,42
+2022-04-06,89,089006,Siracusa,Carlentini,787.08,135
+2022-04-06,89,089007,Siracusa,Cassaro,411.52,3
+2022-04-06,89,089008,Siracusa,Ferla,1277.14,30
+2022-04-06,89,089009,Siracusa,Floridia,667.87,144
+2022-04-06,89,089010,Siracusa,Francofonte,243.53,29
+2022-04-06,89,089011,Siracusa,Lentini,705.69,156
+2022-04-06,89,089012,Siracusa,Melilli,475.22,63
+2022-04-06,89,089013,Siracusa,Noto,609.19,144
+2022-04-06,89,089014,Siracusa,Pachino,854.98,184
+2022-04-06,89,089015,Siracusa,Palazzolo Acreide,545.65,45
+2022-04-06,89,089020,Siracusa,Portopalo di Capo Passero,1846.97,70
+2022-04-06,89,089021,Siracusa,Priolo Gargallo,645.27,74
+2022-04-06,89,089016,Siracusa,Rosolini,959.12,198
+2022-04-06,89,089017,Siracusa,Siracusa,728.73,853
+2022-04-06,89,089018,Siracusa,Solarino,569.08,43
+2022-04-06,89,089019,Siracusa,Sortino,467.79,39
+2022-04-06,81,081001,Trapani,Alcamo,1721.02,770
+2022-04-06,81,081002,Trapani,Buseto Palizzolo,571.63,16
+2022-04-06,81,081003,Trapani,Calatafimi-Segesta,1465.90,92
+2022-04-06,81,081004,Trapani,Campobello di Mazara,753.66,86
+2022-04-06,81,081005,Trapani,Castellammare del Golfo,1176.96,171
+2022-04-06,81,081006,Trapani,Castelvetrano,653.16,195
+2022-04-06,81,081007,Trapani,Custonaci,584.13,31
+2022-04-06,81,081008,Trapani,Erice,607.78,161
+2022-04-06,81,081009,Trapani,Favignana,398.13,17
+2022-04-06,81,081010,Trapani,Gibellina,469.24,18
+2022-04-06,81,081011,Trapani,Marsala,1327.78,1071
+2022-04-06,81,081012,Trapani,Mazara del Vallo,615.89,310
+2022-04-06,81,081013,Trapani,Paceco,953.87,104
+2022-04-06,81,081014,Trapani,Pantelleria,1411.89,104
+2022-04-06,81,081015,Trapani,Partanna,658.62,66
+2022-04-06,81,081024,Trapani,Petrosino,727.18,58
+2022-04-06,81,081016,Trapani,Poggioreale,645.62,9
+2022-04-06,81,081017,Trapani,Salaparuta,751.88,12
+2022-04-06,81,081018,Trapani,Salemi,632.79,64
+2022-04-06,81,081020,Trapani,San Vito Lo Capo,586.76,28
+2022-04-06,81,081019,Trapani,Santa Ninfa,516.32,25
+2022-04-06,81,081021,Trapani,Trapani,694.42,454
+2022-04-06,81,081022,Trapani,Valderice,362.48,42
+2022-04-06,81,081023,Trapani,Vita,659.70,12
