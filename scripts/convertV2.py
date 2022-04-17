@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import io
 import fitz
 import numpy as np
@@ -28,8 +31,36 @@ def getPages(file):
         "incidenza": list(range(pages[0], pages[1]+1)),
         "vaccini": list(range(pages[1]+1, len(pdf)+1))
     }
-    print(output)
+    # print(output)
     return output
+
+
+def addToReadme():
+    '''
+    Aggiunge ultima riga del report.csv al file README.md
+    '''
+    mesi = {"01": "Gennaio", "02": "Febbraio", "03": "Marzo", "04": "Aprile", "05": "Maggio", "06": "Giugno",
+            "07": "Luglio", "08": "Agosto", "09": "Settembre", "10": "Ottobre", "11": "Novembre", "12": "Dicembre"}
+    data = date.split('-')
+    data = data[2] + " " + mesi[data[1]] + " " + data[0]
+    with open("./README.md", "r+", encoding="utf-8") as f:
+        lines = f.readlines()
+        lindex = []
+        for index, line in enumerate(lines):
+            if '.pdf">Report' in line:
+                lindex.append(index)
+        insert_index = (lindex[-1]) + 1
+        lastDay = lines[insert_index -
+                        1].rpartition('Report ')[2].rpartition(' ')[0].rpartition(' ')[0]
+        newDay = date.split('-')[2]
+        if lastDay != newDay:
+            insert_content = '<li><a href="' + \
+                latest['URL'] + '">Report ' + data + '.pdf</a></li>\n'
+            lines.insert(insert_index, insert_content)
+            f.seek(0)
+            f.writelines(lines)
+        f.seek(0)
+    f.close()
 
 
 def isDigit(x):
@@ -246,3 +277,4 @@ def getVax(file, pages):
 pages = getPages('./download/'+latest['nome_file'])
 getIncidenza('./download/'+latest['nome_file'], pages['incidenza'])
 getVax('./download/'+latest['nome_file'], pages['vaccini'])
+addToReadme()
