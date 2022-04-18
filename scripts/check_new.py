@@ -2,11 +2,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import feedparser
 import os
-import io
 import pandas as pd
 import fitz
-from PIL import Image
-import pytesseract
 import re
 import requests
 
@@ -32,9 +29,7 @@ def getDate(file):
     global report_n
     reader = fitz.open(file)
     page = reader.load_page(0)
-    pixmap = page.get_pixmap().tobytes()
-    image = Image.open(io.BytesIO(pixmap))
-    text = pytesseract.image_to_string(image)
+    text = page.get_text()
     match = re.search(r'\d+/\d+/\d+', text)
     report_n = re.search('n° (\d+)', text).group(1)
     date = datetime.strptime(match.group(), '%d/%m/%Y').date()
