@@ -207,21 +207,21 @@ def getVax(file, pages):
         lista_risultati = [i for i in results if i]
         lista_risultati.remove('\x0c')
         for item in lista_risultati:
-            for index, comune in enumerate(lista_comuni):
+            for i, comune in enumerate(lista_comuni):
                 if similar(item, comune) == 1:
                     comuni.append(comune)
-                    del lista_comuni[index]
+                    del lista_comuni[i]
                     break
                 elif similar(item, comune) > 0.85:
-                    del lista_comuni[index]
+                    del lista_comuni[i]
                     comuni.append(comune)
                     break
                 elif similar(item, comune) > 0.66:
-                    del lista_comuni[index]
+                    del lista_comuni[i]
                     comuni.append(comune)
                     break
                 elif similar(item, comune) > 0.57:
-                    del lista_comuni[index]
+                    del lista_comuni[i]
                     comuni.append(comune)
                     break
                 else:
