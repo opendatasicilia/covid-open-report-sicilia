@@ -1,87 +1,102 @@
-from bs4 import BeautifulSoup
-from datetime import datetime
-import feedparser
+"""Controlla se è uscito un nuovo bollettino"""
+
 import os
+import re
+from datetime import datetime
+from bs4 import BeautifulSoup
+import feedparser
 import pandas as pd
 import fitz
-import re
 import requests
 
-path = "./download/"
+PATH_DOWNLOAD = "./download"
 
-def parsePDF(link, url):
-    '''
+
+def parse_pdf(post_link, url):
+    """
     Estrae tutti i links che contengono files .pdf
-    '''
-    html = requests.get(link)
-    soup = BeautifulSoup(html.text, 'html.parser')
-    links = soup.find_all('a')
+    """
+    html = requests.get(post_link)
+    body = BeautifulSoup(html.text, "html.parser")
+    links = body.find_all("a")
     for link in links:
-        if ('.pdf' in link.get('href')):
-            pdf = url+link.get('href')
-    return pdf
+        if ".pdf" in link.get("href"):
+            return url + link.get("href")
+    return None
 
-report_n = 0
-def getDate(file):
-    '''
-    Estrae la data dalla prima pagina del PDF
-    '''
-    global report_n
+
+def get_report(file):
+    """
+    Estrae dati report dalla prima pagina del PDF
+    """
     reader = fitz.open(file)
-    page = reader.load_page(0)
-    text = page.get_text()
-    match = re.search(r'\d+/\d+/\d+', text)
-    report_n = re.search('n° (\d+)', text).group(1)
-    date = datetime.strptime(match.group(), '%d/%m/%Y').date()
+    first_page = reader.load_page(0)
+    page_text = first_page.get_text()
+    date_match = re.search(r"\d+/\d+/\d+", page_text)
+    report_number = re.search("n° (\\d+)", page_text).group(1)
+    report_date = datetime.strptime(date_match.group(), "%d/%m/%Y").date()
+    return {
+        "number": report_number,
+        "date": report_date,
+    }
 
-    return date
 
 def download(pdf):
-    '''
+    """
     Scarica il PDF e ritorna il suo path relativo
-    '''
-    filename = pdf.rsplit('/',1)[-1]
-    r = requests.get(pdf, stream=True)
-    with open(path+filename, 'wb') as f:
-        f.write(r.content)
-    try: 
-        date = getDate(path+filename)
-    except:
-        try: 
-            date = filename.rsplit('/', 1)[-1].replace('%20', '-').rstrip('.pdf').rsplit('-', 3)[1:]
-            date = datetime.strptime(' '.join(date), '%d %B %Y').date()
-        except:
-            date = datetime.now()
-    finally:
-        os.rename(path+filename, path+'report-'+date.strftime('%Y%m%d')+'.pdf')
-    return path+'report-'+date.strftime('%Y%m%d')+'.pdf'
+    """
+    filename = pdf.rsplit("/", 1)[-1]
+    request = requests.get(pdf, stream=True)
+    file_path = PATH_DOWNLOAD + "/" + filename
+    with open(file_path, "wb") as file:
+        file.write(request.content)
+        report = get_report(file_path)
+        report_date = report["date"].strftime("%Y%m%d")
+        os.rename(file_path, f"{PATH_DOWNLOAD}/report-{report_date}.pdf")
+    return f"{PATH_DOWNLOAD}/report-{report_date}.pdf"
+
 
 def check(url):
-    '''
-    Controlla se è uscito un nuovo bollettino
-    Se si, aggiungilo al report.csv
-    '''
+    """
+    Se è uscito un nuovo bollettino aggiungilo al report.csv
+    """
     try:
-        feed = feedparser.parse(url+'/feed')
-        if (not hasattr(feed, 'status')) or feed.status != 200:
-            print('Errore di connessione')
-            exit()
-        f = [field for field in feed['entries'] if ("bollettino settimanale" in field['title'].lower() or ("a cura del dasoe" or "bollettino settimanale dasoe") in field['summary'].lower())]
-        #print(f[0].title)
-        link = f[0]['links'][0]['href']
-        if(link):
-            #print(link)
-            newfile = parsePDF(link, url)
-            report = pd.read_csv(path + "report.csv")
-            if newfile not in report.URL.values:
+        feed = feedparser.parse(url + "/feed")
+        if (not hasattr(feed, "status")) or feed.status != 200:
+            raise SystemExit("Errore di connessione")
+        post_element = [
+            field
+            for field in feed["entries"]
+            if (
+                "bollettino settimanale" in field["title"].lower()
+                or ("a cura del dasoe" or "bollettino settimanale dasoe")
+                in field["summary"].lower()
+            )
+        ]
+        post_link = post_element[0]["links"][0]["href"]
+        if post_link:
+            report_url = parse_pdf(post_link, url)
+            reports = pd.read_csv(PATH_DOWNLOAD + "/report.csv")
+            if report_url not in reports["URL"].values:
                 print("Nuovo PDF!")
-                file = download(newfile)
-                date = getDate(file)
-                report = report.append({"n":report_n, "data_report": date, "nome_file": file.rsplit('/', 1)[-1], "URL": newfile}, ignore_index=True)
-                report.to_csv(path + "report.csv", index=False)
+                new_file = download(report_url)
+                report = get_report(new_file)
+                report_date = report["date"]
+                report_number = report["number"]
+                reports = reports.append(
+                    {
+                        "n": report_number,
+                        "data_report": report_date,
+                        "nome_file": new_file.rsplit("/", 1)[-1],
+                        "URL": report_url,
+                    },
+                    ignore_index=True,
+                )
+                reports.to_csv(PATH_DOWNLOAD + "/report.csv", index=False)
             else:
                 print("PDF già presente in archivio")
-    except Exception as e:
-        print(e)
+    except ConnectionError as error:
+        print(error)
 
-check('https://www.regione.sicilia.it')
+
+check("https://www.regione.sicilia.it")
