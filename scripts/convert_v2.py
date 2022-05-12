@@ -276,7 +276,7 @@ def export_csv(data, path):
     """Export data to CSV"""
     with open(f"{path}-latest.csv", "r", encoding="utf-8") as last_update:
         last_update_date = last_update.readlines()[1].split(",")[0]
-    if latest_date == last_update_date:
+    if latest_date != last_update_date:
         print("Esporto CSV...")
         format_date = latest_date.replace("-", "")
         data.to_csv(
