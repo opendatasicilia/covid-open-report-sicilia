@@ -16,7 +16,9 @@ PATH_INCIDENCE = f"{PATH}/dati/incidenza/incidenza"
 PATH_VACCINES = f"{PATH}/dati/vaccini/vaccini"
 COMUNI_SICILIANI = "https://raw.githubusercontent.com/gabacode/vaxExtract/main/utilities/Elenco-comuni-siciliani.csv"
 
-comuni_siciliani = pd.DataFrame(pd.read_csv(COMUNI_SICILIANI, converters={"pro_com_t": "{:0>6}".format}))
+comuni_siciliani = pd.DataFrame(
+    pd.read_csv(COMUNI_SICILIANI, converters={"pro_com_t": "{:0>6}".format})
+)
 latest_report = pd.DataFrame(pd.read_csv(f"{PATH}/download/report.csv")).iloc[-1]
 latest_date = latest_report["data_report"]
 latest_file = latest_report["nome_file"]
@@ -69,7 +71,12 @@ def add_to_readme():
             if '.pdf">Report' in line:
                 readme_indexes.append(index)
         insert_index = (readme_indexes[-1]) + 1
-        last_day = readme_lines[insert_index - 1].rpartition("Report ")[2].rpartition(" ")[0].rpartition(" ")[0]
+        last_day = (
+            readme_lines[insert_index - 1]
+            .rpartition("Report ")[2]
+            .rpartition(" ")[0]
+            .rpartition(" ")[0]
+        )
         new_day = latest_date.split("-")[2]
 
         if last_day != new_day:
@@ -181,9 +188,9 @@ def get_incidence(file, input_pages):
         how="inner",
     )
     output.rename(columns={"comune_y": "comune"}, inplace=True)
-    output = output[["cod_prov", "pro_com_t", "provincia", "comune", "incidenza", "casi"]].sort_values(
-        by=["provincia", "comune"]
-    )
+    output = output[
+        ["cod_prov", "pro_com_t", "provincia", "comune", "incidenza", "casi"]
+    ].sort_values(by=["provincia", "comune"])
     output.reset_index(drop=True, inplace=True)
     output.insert(0, "data", latest_date)
 
@@ -262,7 +269,9 @@ def get_vaccines(file, input_pages):
             vax_row = (comune, prima_dose, seconda_dose)
             vax_rows.append(vax_row)
     else:
-        raise ValueError("Errore: Sono presenti meno comuni del previsto.", len(comuni), len(values))
+        raise ValueError(
+            "Errore: Sono presenti meno comuni del previsto.", len(comuni), len(values)
+        )
 
     vax = pd.DataFrame(vax_rows, columns=["comune", "prima_dose", "seconda_dose"])
     output = pd.merge(vax, comuni_siciliani, on="comune", how="inner")

@@ -4,5 +4,5 @@
     "editor.formatOnSave": true,
     "python.formatting.provider": "black",
     "python.linting.pylintEnabled": true,
-    "python.formatting.blackArgs": ["--line-length", "120"],
+    "python.formatting.blackArgs": ["--line-length", "100"],
 }
