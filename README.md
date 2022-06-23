@@ -121,7 +121,7 @@ seconda_dose | Percentuale di: persone vaccinate con 2 o più dosi, persone vacc
 - Dal [Bollettino n°12](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%2012%20del%2022%20Dicembre%202021.pdf) si apprende che a partire dal [Bollettino n° 11 del 15/12/2021](https://www.regione.sicilia.it/sites/default/files/2021-12/Bollettino%20Dasoe%20n.11%20del%2015%20Dicembre%202021.pdf) gli allegati relativi alla vaccinazione contemplano _il target 5-11 anni quale platea avente diritto alla vaccinazione, con un conseguente decremento della % di popolazione immunizzata per singolo comune._ Pertanto è possibile stimare il numero assoluto di persone vaccinate utilizzando [questo file json.](https://raw.githubusercontent.com/opendatasicilia/cors-dashboard/main/src/data/targets.json)
 
 ## Licenza
-<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" width="150"/></a>
 
 ## Elaborazioni
 Dati aperti di questo tipo consentono la realizzazione di svariate elaborazioni:
