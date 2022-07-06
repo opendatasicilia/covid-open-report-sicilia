@@ -255,8 +255,16 @@ def get_vaccines(file, input_pages):
 
         out = [i for i in results if i]
         out.remove("\x0c")
-        out = [value.replace(",", ".").replace("%", "") for value in out]
-        out = out[:-2]
+
+        new_values = []
+        for value in out:
+            new_value = value.replace(",", ".").replace("%", "")
+            if len(new_value) > 5 and new_value[2] == ".":
+                new_value = new_value[:-1]
+            if float(new_value) > 1000 and len(new_value) == 4:
+                new_value = new_value[:2] + "." + new_value[2:]
+            new_values.append(new_value)
+        out = new_values[:-2]
 
         iter_list = iter(out)
         data = list(zip(iter_list, iter_list))
