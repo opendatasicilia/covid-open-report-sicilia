@@ -7,9 +7,13 @@ on:
     paths:
       - 'dati/**'
   pull_request:
-#    branches:
-#      - main
+    paths:
+      - 'dati/**'
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Download and convert PDF"]
+    types:
+      - completed
 
 jobs:
   validate:
