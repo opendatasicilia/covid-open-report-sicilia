@@ -2,7 +2,7 @@ name: Download and convert PDF
 
 on:
   schedule:
-    - cron: '*/30 12-23 * * 3-5'
+    - cron: '*/30 12-23/3 * * 3-5'
   workflow_dispatch:
 
 jobs:
