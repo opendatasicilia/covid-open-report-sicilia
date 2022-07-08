@@ -32,13 +32,11 @@ resources:
         - name: 'prima_dose'
           type: number
           description: Percentuale di persone vaccinate con almeno una dose (calcolata rispetto al target)
-          constraints:
-            pattern: ^[0-9]*\.[0-9][0-9]$
+          #constraints:
         - name: 'seconda_dose'
           type: number
           description: Percentuale di persone vaccinate con 2 o più dosi, persone vaccinate in monodose per pregressa infezione Covid, persone vaccinate con Janssen (calcolata rispetto al target)
-          constraints:
-            pattern: ^[0-9]*\.[0-9][0-9]$
+          #constraints:
     scheme: file
   - encoding: utf-8
     format: csv
@@ -68,8 +66,7 @@ resources:
         - name: incidenza
           type: number
           description: Incidenza cumulativa settimanale (ogni 100.000 abitanti)
-          constraints:
-            pattern: ^[0-9]*\.[0-9][0-9]$
+          #constraints:
         - name: casi
           type: integer
           description: Nuovi casi settimanali
