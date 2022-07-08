@@ -1,8 +1,0 @@
-{
-    "python.linting.enabled": true,
-    "python.linting.pylintPath": "pylint",
-    "editor.formatOnSave": true,
-    "python.formatting.provider": "black",
-    "python.linting.pylintEnabled": true,
-    "python.formatting.blackArgs": ["--line-length", "100"],
-}
