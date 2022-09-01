@@ -247,9 +247,9 @@ data,cod_prov,pro_com_t,provincia,comune,prima_dose,seconda_dose
 2022-08-24,83,083100,Messina,Tripi,86.09,87.05
 2022-08-24,83,083101,Messina,Tusa,88.98,86.80
 2022-08-24,83,083102,Messina,Ucria,90.17,103.35
-2022-08-24,83,083103,Messina,Valdina,80.08,77.28
-2022-08-24,83,083104,Messina,Venetico,78.63,77.64
-2022-08-24,83,083105,Messina,Villafranca Tirrena,80.04,78.05
+2022-08-24,83,083103,Messina,Valdina,,
+2022-08-24,83,083104,Messina,Venetico,,
+2022-08-24,83,083105,Messina,Villafranca Tirrena,,
 2022-08-24,82,082001,Palermo,Alia,95.20,93.64
 2022-08-24,82,082002,Palermo,Alimena,91.29,88.09
 2022-08-24,82,082002,Palermo,Aliminusa,89.47,88.72
