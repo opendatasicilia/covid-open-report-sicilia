@@ -237,7 +237,7 @@ data,cod_prov,pro_com_t,provincia,comune,prima_dose,seconda_dose
 2022-09-08,83,083092,Messina,Saponara,81.32,79.44
 2022-09-08,83,083093,Messina,Savoca,74.19,70.57
 2022-09-08,83,083094,Messina,Scaletta Zanclea,72.86,69.87
-2022-09-08,83,083095,Messina,Sinagra,87.18%.8,13%.na
+2022-09-08,83,083095,Messina,Sinagra,87.18,89.13
 2022-09-08,83,083096,Messina,Spadafora,81.83,79.62
 2022-09-08,83,083097,Messina,Taormina,79.23,78.81
 2022-09-08,83,083106,Messina,Terme Vigliatore,82.96,84.98
@@ -246,7 +246,7 @@ data,cod_prov,pro_com_t,provincia,comune,prima_dose,seconda_dose
 2022-09-08,83,083099,Messina,Tortorici,83.71,82.18
 2022-09-08,83,083100,Messina,Tripi,86.09,87.05
 2022-09-08,83,083101,Messina,Tusa,88.98,86.80
-2022-09-08,83,083102,Messina,Ucria,17%.10,35%.na
+2022-09-08,83,083102,Messina,Ucria,90.17,103.35
 2022-09-08,83,083103,Messina,Valdina,,
 2022-09-08,83,083104,Messina,Venetico,,
 2022-09-08,83,083105,Messina,Villafranca Tirrena,,
@@ -328,10 +328,10 @@ data,cod_prov,pro_com_t,provincia,comune,prima_dose,seconda_dose
 2022-09-08,82,082074,Palermo,Trappeto,79.37,76.21
 2022-09-08,82,082075,Palermo,Ustica,94.97,93.85
 2022-09-08,82,082076,Palermo,Valledolmo,87.65,86.98
-2022-09-08,82,082077,Palermo,Ventimiglia di Sicilia,78%.9,20%.na
+2022-09-08,82,082077,Palermo,Ventimiglia di Sicilia,91.78,90.20
 2022-09-08,82,082078,Palermo,Vicari,93.36,91.23
 2022-09-08,82,082079,Palermo,Villabate,78.85,77.23
-2022-09-08,82,082080,Palermo,Villafrati,33%.9,83%.na
+2022-09-08,82,082080,Palermo,Villafrati,93.33,94.83
 2022-09-08,88,088001,Ragusa,Acate,80.10,80.04
 2022-09-08,88,088002,Ragusa,Chiaramonte Gulfi,83.96,83.16
 2022-09-08,88,088003,Ragusa,Comiso,85.49,84.22
