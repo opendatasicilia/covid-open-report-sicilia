@@ -62,6 +62,7 @@ Gli stessi dati alimentano:
 <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-08/Bollettino%2046%20del%2017%20Agosto%202022_compressed.pdf">Report 17 Agosto 2022.pdf</a></li>
 <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-08/Bollettino%2047%20del%2024%20Agosto%202022.pdf">Report 24 Agosto 2022.pdf</a></li>
 <li><a href="https://www.regione.sicilia.it/sites/default/files/2022-09/Bollettino%2049%20del%2008%20Settembre%202022.pdf">Report 08 Settembre 2022.pdf</a></li>
+<li><a href="https://www.regione.sicilia.it/sites/default/files/2022-09/Bollettino%2050%20del%2014%20Settembre%202022_1.pdf">Report 14 Settembre 2022.pdf</a></li>
 </ul>
 </details>
 
